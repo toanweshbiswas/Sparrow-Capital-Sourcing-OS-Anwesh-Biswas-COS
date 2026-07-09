@@ -952,7 +952,7 @@ function renderDashboard() {
   const avgScore = active.length ? Math.round(active.reduce((a,c)=>a+c.thesisScore,0)/active.length) : 0;
   const depCount = (typeof SEED_DEPARTURES !== 'undefined' && Array.isArray(SEED_DEPARTURES)) ? SEED_DEPARTURES.length : 0;
   const buildingOwn = (typeof SEED_DEPARTURES !== 'undefined' && Array.isArray(SEED_DEPARTURES))
-    ? SEED_DEPARTURES.filter(d => (d.moveType || 'starting_own') === 'starting_own').length : 0;
+    ? SEED_DEPARTURES.filter(d => d.moveType === 'starting_own').length : 0;
 
   // Signal-to-Conviction funnel — the flow every signal travels. Counts come
   // straight from the live pipeline (the same data the CRM Pipeline view uses).

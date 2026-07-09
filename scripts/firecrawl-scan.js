@@ -25,14 +25,26 @@
 // ============================================================================
 'use strict';
 
+require('./load-env');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
 
+const {
+  isFabricated, canonSector, scoreCrawled, deriveUrgency, UNRELIABLE_SOURCE_RE,
+} = require('./crawl-lib');
+
 const ROOT = path.resolve(__dirname, '..');
 const DATA = path.join(ROOT, 'data');
 
-const API_KEY = process.env.FIRECRAWL_API_KEY || 'fc-c12839f7cb0142989de5c58b2261cea3';
+// Read the Firecrawl key from the environment (never hard-code a secret). Set it
+// in a local .env (gitignored) or export it before running:
+//   FIRECRAWL_API_KEY=fc-... node scripts/firecrawl-scan.js
+const API_KEY = process.env.FIRECRAWL_API_KEY;
+if (!API_KEY) {
+  console.error('[firecrawl-scan] FIRECRAWL_API_KEY is not set — export it or add it to .env before running.');
+  process.exit(1);
+}
 const BASE = 'https://api.firecrawl.dev';
 
 // How hard to crawl. Each scrape ≈ 5 Firecrawl credits, so these bound cost.
@@ -69,26 +81,25 @@ const NEWS_DOMAINS = [
   'techinasia.com', 'fortuneindia.com', 'entrepreneur.com', 'analyticsindiamag.com',
 ];
 
-// High-yield funding-roundup pages worth scraping directly for raises.
+// Funding-roundup pages worth scraping directly for raises. NOTE: bare
+// aggregator/index pages (entrackr.com/monthly-funding-report, .../tag/funding,
+// vccircle.com/category/startup) and macro articles were REMOVED — they carry no
+// clean per-deal structure, so the extractor hallucinated placeholder companies
+// ("XYZ Innovations", "John Doe" founders) off them. See UNRELIABLE_SOURCE_RE in
+// crawl-lib.js. We keep only tag pages that reliably list named, dated deals; the
+// search() pass below still discovers specific per-deal article + snippet URLs.
 const RAISE_LISTING_URLS = [
-  'https://entrackr.com/tag/funding',
-  'https://entrackr.com/tags/funding-news',
-  'https://entrackr.com/monthly-funding-report',
-  'https://entrackr.com/weekly-funding-report-weekly-funding-report',
   'https://inc42.com/tag/funding-galore/',
   'https://yourstory.com/tag/funding',
-  'https://www.vccircle.com/category/startup',
 ];
 
-// "Rich signal" feeds — general startup-news / social pages that carry BOTH
-// fresh funding announcements AND early market signals (departures, launches).
-// These are JS-heavy SPAs (incl. X/Twitter), so they must be scraped with the
-// full page rendered (onlyMainContent:false + waitFor) or they come back empty.
-// We run BOTH the raise and departure extractors against each.
+// "Rich signal" feeds — general startup-news pages that carry BOTH fresh funding
+// announcements AND early market signals (departures, launches). JS-heavy, so
+// full-render. x.com/social feeds were removed (no per-deal structure → fabricated
+// extractions). We run BOTH the raise and departure extractors against each.
 const RICH_SIGNAL_URLS = [
   'https://inc42.com/buzz/',
   'https://inc42.com/tag/funding-galore/',
-  'https://x.com/TheCEO_Magazine',
 ];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -191,6 +202,10 @@ function normalizeMove(d, sourceUrl) {
 // Apply the early-stage-raise gate to one extracted deal → normalized deal or null.
 function normalizeDeal(d, sourceUrl) {
   if (!d || !d.company) return null;
+  // Anti-hallucination: never trust a deal scraped off an aggregator/index/macro
+  // page, and drop any record with placeholder / template content.
+  if (UNRELIABLE_SOURCE_RE.test(sourceUrl || '')) return null;
+  if (isFabricated({ name: d.company, founders: d.founders, backedBy: d.investors })) return null;
   const round = (d.round || '').toLowerCase();
   if (round && !/angel|pre[-\s]?seed|seed/.test(round)) return null; // early stage only
   if (!norm(d.company)) return null;
@@ -438,12 +453,8 @@ function readJson(file, fallback) {
   try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return fallback; }
 }
 
-const SECTOR_CANON = { fintech: 'Fintech', b2b: 'B2B', saas: 'B2B', ai: 'AI', 'applied ai': 'AI', consumer: 'Consumer', d2c: 'Consumer', healthtech: 'Consumer' };
-function canonSector(s) {
-  const n = (s || '').toLowerCase();
-  for (const k of Object.keys(SECTOR_CANON)) if (n.includes(k)) return SECTOR_CANON[k];
-  return 'Consumer';
-}
+// canonSector is imported from crawl-lib.js (word-boundary matched; the old
+// includes('ai') here matched "hair"/"retail" and sent everything to Consumer).
 function canonStage(round) {
   const r = (round || '').toLowerCase();
   if (r.includes('pre')) return 'Pre-Seed';
@@ -503,6 +514,15 @@ function writeRaises(deals, nowIso) {
   const file = path.join(DATA, 'companies.json');
   const companies = readJson(file, []);
   const byName = new Map(companies.map((c) => [norm(c.name), c]));
+  // Loose dedup: reject a new deal whose name is a substring (or superset) of an
+  // existing company's — catches "Skyroot" vs "Skyroot Aerospace".
+  const existsLoose = (n) => {
+    if (byName.has(n)) return true;
+    for (const k of byName.keys()) {
+      if (k.length >= 5 && n.length >= 5 && (k.includes(n) || n.includes(k))) return true;
+    }
+    return false;
+  };
   let added = 0;
   let nextId = companies.reduce((m, c) => Math.max(m, parseInt((c.id || 'c0').slice(1)) || 0), 0);
   const clean = (v) => {
@@ -510,9 +530,11 @@ function writeRaises(deals, nowIso) {
     return /^(undisclosed|n\/?a|unknown|not disclosed|-)?$/i.test(s) ? '' : s;
   };
   for (const d of deals) {
-    if (byName.has(norm(d.company))) continue;
+    const nName = norm(d.company);
+    if (existsLoose(nName)) continue;
     nextId++;
-    const sector = canonSector(d.sector);
+    const rawSector = d.sector || '';
+    const sector = canonSector(rawSector);
     const amount = clean(d.amount);
     const investors = clean(d.investors);
     const roundLabel = d.round || 'an early round';
@@ -524,7 +546,7 @@ function writeRaises(deals, nowIso) {
       name: d.company,
       website: '',
       sector,
-      subSector: d.sector || '',
+      subSector: rawSector,
       stage: canonStage(d.round),
       geography: 'India',
       hq: 'India',
@@ -533,15 +555,16 @@ function writeRaises(deals, nowIso) {
       founders: d.founders ? d.founders.split(/,|&|and/).map((n) => ({ name: n.trim(), role: 'Founder' })).filter((f) => f.name) : [],
       signalType: 'Angel / Pre-Seed Raise',
       signalSource: `Firecrawl crawl — ${d.source}`,
-      urgency: 'High',
-      thesisScore: 60,
       whyNow,
       whySparrow: `Early-stage ${sector} raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.`,
       backedBy: investors ? investors.split(',').map((s) => s.trim()).filter(Boolean).slice(0, 3) : [],
       status: 'New Signal',
       createdAt: nowIso,
     };
-    byName.set(norm(d.company), rec);
+    // Real, varied thesis score + urgency (not the old flat 60 / blanket High).
+    rec.thesisScore = scoreCrawled(rec);
+    rec.urgency = deriveUrgency(rec);
+    byName.set(nName, rec);
     companies.push(rec);
     added++;
   }
@@ -576,7 +599,7 @@ async function main() {
     timestamp: nowIso,
     window: 'last ~12 months (qdr:y)',
     engine: 'firecrawl',
-    sourcesChecked: ['news search', 'funding roundups', 'inc42/buzz', 'x.com/TheCEO_Magazine'],
+    sourcesChecked: ['news search', 'per-deal funding articles', 'inc42/buzz'],
     newCompanies: raiseAdded,
     newDepartures: depAdded,
     departuresFound: allDeps.length,

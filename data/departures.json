@@ -10,20 +10,22 @@
     "source": "https://timesofindia.indiatimes.com/business/india-business/swiggy-cofounder-nandan-reddy-steps-down-may-start-up-again/articleshow/130176951.cms",
     "status": "New Signal",
     "foundAt": "2026-07-09T04:52:32.637Z",
-    "watchlisted": true
+    "watchlisted": true,
+    "moveType": "starting_own"
   },
   {
     "id": "d002",
     "founder": "Girish Mathrubootham",
     "exEmployer": "Freshworks",
     "exDesignation": "Executive Chairman",
-    "currentBuilding": "Together Fund",
+    "currentBuilding": "",
     "sector": "Venture Capital",
     "linkedin": "",
     "source": "https://timesofindia.indiatimes.com/city/chennai/girish-mathrubootham-steps-down-as-executive-chairman-of-freshworks-to-focus-on-his-vc-firm-together-fund/articleshow/123716086.cms",
     "status": "New Signal",
     "foundAt": "2026-07-09T04:52:32.637Z",
-    "watchlisted": true
+    "watchlisted": true,
+    "moveType": "stepped_down"
   },
   {
     "id": "d003",
@@ -40,19 +42,6 @@
     "watchlisted": true
   },
   {
-    "id": "d004",
-    "founder": "Kunal Shah",
-    "exEmployer": "CRED",
-    "exDesignation": "CEO",
-    "currentBuilding": "stealth fintech",
-    "sector": "Fintech",
-    "linkedin": "",
-    "source": "https://techcrunch.com/2026/06/22/whatsapp-gets-new-chief-as-meta-taps-indias-cred-founder-kunal-shah-and-invests-900m-in-startup/",
-    "status": "New Signal",
-    "foundAt": "2026-07-09T05:37:12.966Z",
-    "watchlisted": true
-  },
-  {
     "id": "d005",
     "founder": "Ujjwal Jain",
     "exEmployer": "PhonePe",
@@ -63,7 +52,8 @@
     "source": "https://www.moneycontrol.com/technology/phonepe-elevates-srijon-biswas-as-cto-co-founder-rahul-chari-is-cpto-article-13968865.html",
     "status": "New Signal",
     "foundAt": "2026-07-09T05:37:12.966Z",
-    "watchlisted": true
+    "watchlisted": true,
+    "moveType": "starting_own"
   },
   {
     "id": "d006",

@@ -11,6 +11,7 @@
 // Then open the URL it prints (default http://localhost:8787).
 'use strict';
 
+require('./load-env');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
@@ -47,7 +48,9 @@ function runFirecrawl() {
   try {
     child = spawn('node', [path.join(ROOT, 'scripts', 'firecrawl-scan.js')], {
       cwd: ROOT,
-      env: { ...process.env, FIRECRAWL_API_KEY: process.env.FIRECRAWL_API_KEY || 'fc-c12839f7cb0142989de5c58b2261cea3' },
+      // FIRECRAWL_API_KEY is inherited from the environment (set it in .env or
+      // export it before starting the server). The child exits early if unset.
+      env: { ...process.env },
     });
   } catch (err) {
     crawlState.running = false;
