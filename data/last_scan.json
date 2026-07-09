@@ -1,0 +1,324 @@
+{
+  "timestamp": "2026-07-09T06:17:10.443Z",
+  "window": "last ~12 months (qdr:y)",
+  "queriesRun": [
+    {
+      "angle": "sector",
+      "query": "India fintech startup seed funding raised July 2026"
+    },
+    {
+      "angle": "sector",
+      "query": "India B2B SaaS startup seed funding raised July 2026"
+    },
+    {
+      "angle": "sector",
+      "query": "India applied AI startup pre-seed seed funding July 2026"
+    },
+    {
+      "angle": "sector",
+      "query": "India consumer D2C startup seed funding raised July 2026"
+    },
+    {
+      "angle": "source",
+      "query": "VCCircle India startup funding seed pre-seed raised July 2026"
+    },
+    {
+      "angle": "source",
+      "query": "Inc42 startups raised India funding week July 2026"
+    },
+    {
+      "angle": "source",
+      "query": "site:yourstory.com daily roundup July 2 3 4 5 6 7 8 2026 startup raised"
+    },
+    {
+      "angle": "source",
+      "query": "site:entrackr.com India startup funding week July 2026"
+    },
+    {
+      "angle": "source",
+      "query": "Heatronics startup India Inflection Point Ventures IPV seed 2026"
+    },
+    {
+      "angle": "source",
+      "query": "Entrepreneur India OR startuptalky OR BestStartup startup funding July 2026 seed"
+    },
+    {
+      "angle": "source",
+      "query": "Inc42 Funding Galore OR startups raised week July 7 8 2026 India seed pre-seed"
+    },
+    {
+      "angle": "investor-watchlist",
+      "query": "V3 Ventures Arjun Vaidya invests backs startup India 2026"
+    },
+    {
+      "angle": "investor-watchlist",
+      "query": "Sauce.vc OR AH Ventures OR Hem Angels OR Pedal Start portfolio India startup 2026"
+    },
+    {
+      "angle": "investor-watchlist",
+      "query": "Sameer Nigam OR Lalit Keshre OR Vidit Aatrey angel invest backed startup India July 2026"
+    },
+    {
+      "angle": "investor-watchlist",
+      "query": "Uni Seoul Sauce.vc startup India 2026 consumer brand"
+    },
+    {
+      "angle": "investor-watchlist",
+      "query": "Meraki Labs startup Bangalore India Fermi AI what does it do funding 2026"
+    },
+    {
+      "angle": "investor-watchlist",
+      "query": "Fermi.ai startup Mukesh Bansal Peeyush Ranjan edtech AI India funding raise 2026"
+    },
+    {
+      "angle": "regional",
+      "query": "Hyderabad Chennai Pune startup seed pre-seed funding raised July 2026"
+    },
+    {
+      "angle": "regional",
+      "query": "Entrackr early stage deals July 2 3 4 7 2026 India startup seed pre-seed raised"
+    },
+    {
+      "angle": "accelerator",
+      "query": "100X.vc AJVC cohort class 2026 new startup portfolio India announced"
+    },
+    {
+      "angle": "accelerator",
+      "query": "YC W25 S25 India startup fintech B2B SaaS AI consumer launched 2026"
+    },
+    {
+      "angle": "stealth-hiring",
+      "query": "site:boards.greenhouse.io founding engineer OR first engineer India 2026"
+    },
+    {
+      "angle": "stealth-hiring",
+      "query": "site:jobs.lever.co founding engineer OR first engineer India 2026"
+    },
+    {
+      "angle": "stealth-hiring",
+      "query": "site:jobs.smartrecruiters.com founding engineer India 2026"
+    },
+    {
+      "angle": "stealth-hiring",
+      "query": "site:careers.workable.com founding engineer OR first engineer India startup 2026"
+    },
+    {
+      "angle": "stealth-hiring",
+      "query": "site:jobs.ashbyhq.com founding engineer OR first engineer OR founding software engineer India 2026"
+    },
+    {
+      "angle": "stealth-hiring",
+      "query": "site:jobs.bamboohr.com founding engineer OR first engineer India 2026"
+    },
+    {
+      "angle": "stealth-hiring",
+      "query": "site:wellfound.com OR site:angel.co founding engineer India fintech B2B SaaS AI seed 2026"
+    },
+    {
+      "angle": "stealth-hiring",
+      "query": "site:cutshort.io founding engineer OR first engineer India startup 2026"
+    },
+    {
+      "angle": "sector",
+      "query": "India AI startup seed funding raised July 2026 B2B enterprise SaaS announced"
+    },
+    {
+      "angle": "source",
+      "query": "startups-india-news-july-2026 seed pre-seed funding raised India fintech AI"
+    },
+    {
+      "angle": "investor-watchlist",
+      "query": "India startup funding July 2026 seed pre-seed fintech OR AI OR SaaS raised announced week"
+    }
+  ],
+  "sourcesChecked": [
+    "news search",
+    "funding roundups",
+    "inc42/buzz",
+    "x.com/TheCEO_Magazine"
+  ],
+  "newCompanies": 0,
+  "keptRaises": [
+    {
+      "name": "Fermi.ai",
+      "relevance": "High",
+      "signalType": "Founding Engineer Hire",
+      "announced": "2026-07",
+      "id": "c052"
+    }
+  ],
+  "alreadyTracked": [
+    {
+      "name": "Spense",
+      "note": "Already in tracker (c046). YourStory Jul 2 confirmed."
+    },
+    {
+      "name": "BCT Ventures",
+      "note": "Already in tracker (c047). Multiple sources confirmed."
+    },
+    {
+      "name": "PlayBlue",
+      "note": "Already in tracker (c050). YourStory Jul 2 confirmed."
+    },
+    {
+      "name": "Onpoint",
+      "note": "Already in tracker (c048). Entrackr Jun 29–Jul 4 confirmed."
+    },
+    {
+      "name": "CUNIN",
+      "note": "Already in tracker (c051). YourStory Jul 3 confirmed."
+    },
+    {
+      "name": "Brekfuz",
+      "note": "Already in tracker (c049). No new signals this week."
+    },
+    {
+      "name": "Oodle AI",
+      "note": "Still hiring Founding Engineers on Ashby (both Distributed Systems + Frontend still open). Already flagged as Low/monitor stealth signal (prior scan). No change to status — not India-first HQ."
+    }
+  ],
+  "droppedOffThesis": [
+    {
+      "name": "Heatronics",
+      "reason": "Heat therapy medical device hardware (Rs 1.8 Cr seed, Jul 2 2026, IPV lead). IPV is watchlist fund but hardware product = off-thesis. Physical product, ISO 13485 certified medical device."
+    },
+    {
+      "name": "Uni Seoul",
+      "reason": "Korean-inspired consumer lifestyle/retail brand (Rs 35 Cr Series A, Sauce.vc lead, Jun 2026). Sauce.vc is watchlist fund but: (1) Series A pricing — off-thesis stage, (2) offline retail-first model, limited software wedge."
+    },
+    {
+      "name": "Econovus Packaging",
+      "reason": "Sustainable packaging startup (Rs 40 Cr pre-Series A, Rainmatter lead, Jul 7 2026). Rainmatter is watchlist fund but non-software B2B = off-thesis. Dropped (confirmed from prior scan)."
+    },
+    {
+      "name": "Kapture CX",
+      "reason": "Agentic AI CX platform ($10M pre-Series B, Jun 29–Jul 4 Entrackr week). Off-thesis: pre-Series B is too late stage."
+    },
+    {
+      "name": "Elevate Education",
+      "reason": "AI-powered learning (Rs 170 Cr, Jul 8 2026). Off-thesis: too late stage (Rs 170 Cr round implies Series B+ range)."
+    },
+    {
+      "name": "Limelight Diamonds",
+      "reason": "Lab-grown diamond jewellery (Rs 275 Cr strategic round, Jul 1 2026). Off-thesis: non-software, late stage."
+    },
+    {
+      "name": "Incuspaze",
+      "reason": "Managed workspace provider (Rs 150 Cr from Bharat Value Fund, Jul 1 2026). Off-thesis: real estate/coworking."
+    },
+    {
+      "name": "BatX Energies",
+      "reason": "Battery recycling (Rs 105 Cr Series A, Jul 2 2026). Off-thesis: hardware + late stage."
+    },
+    {
+      "name": "Age Care Labs",
+      "reason": "Eldercare (Rs 85 Cr Series B1 tranche, Jul 2 2026). Off-thesis: sector + stage."
+    },
+    {
+      "name": "TOCAL",
+      "reason": "EV fleet hardware (Rs 9 Cr seed, Jul 6 2026). Hardware off-thesis."
+    },
+    {
+      "name": "Blurgs AI",
+      "reason": "Defence/maritime AI ($2.2M, Jul 4–5 2026). Deep tech defence off-thesis."
+    },
+    {
+      "name": "Mowito",
+      "reason": "Physical AI/robotics ($3M pre-seed, Jul 7 2026). Hardware off-thesis."
+    },
+    {
+      "name": "zaimler",
+      "reason": "B2B AI enterprise semantic platform, Bangalore founding hire (Lever). US-backed, US-first HQ — not India-first. Monitor."
+    }
+  ],
+  "priorWindowRadar": [
+    {
+      "name": "Rovia",
+      "note": "Wealthtech ($1M pre-seed, Antler India lead, June 1 2026). Ex-Zolve + ex-Vance founders. Still not in tracker. Antler India watchlist hit. Relevance Medium-High. Consider adding to tracker.",
+      "relevance": "Medium-High",
+      "id": null
+    },
+    {
+      "name": "SwishX",
+      "note": "Pharma/MedTech AI ($2.2M seed, Blume Ventures lead, May 2026). Ex-Google + Amazon founders. Outside window but Blume watchlist. Consider adding to tracker.",
+      "relevance": "Medium",
+      "id": null
+    },
+    {
+      "name": "Arrowhead",
+      "note": "Voice AI startup, Bengaluru, $3M seed (Jan 2026). Backed by Stellaris Venture Partners and Kunal Shah (Sparrow watchlist i01). Currently outside the 7-day window but not yet tracked. Kunal Shah (watchlist) on cap table = warm path. Voice AI is applied AI — in-thesis. Likely approaching Series A in 2026H2. Action: Add to tracker as Medium-High watch item. Warm path: Kunal Shah → founders.",
+      "relevance": "Medium-High",
+      "id": null
+    }
+  ],
+  "stealthHiringSignals": [
+    {
+      "name": "Fermi.ai",
+      "description": "AI-first STEM EdTech (grades 8–12 math/physics/chemistry), launched Jan 2026, 10-person team in Bengaluru. Co-founded by Mukesh Bansal (Sparrow watchlist i19, co-founder Myntra/Cult.fit) and Peeyush Ranjan (ex-Flipkart CTO, ex-Google VP/GM). Backed only by Meraki Labs (founders' own fund). Hiring 'Junior Full Stack Founding Engineer' in HSR, Bengaluru — 5-day on-site, immediate joiners. Pre-raise signal: external funding 3–9 months out.",
+      "signalType": "Founding Engineer Hire",
+      "source": "jobs.ashbyhq.com/Meraki%20AI — Jul 2026",
+      "geography": "Singapore HQ / Bengaluru team — India market focus",
+      "urgency": "High",
+      "relevance": "High",
+      "action": "Added to tracker as c052. Direct outreach to Mukesh Bansal — he is both watchlist angel (i19) AND founder. Warm path is direct.",
+      "id": "c052"
+    },
+    {
+      "name": "Oodle AI",
+      "description": "B2B observability platform (logs/metrics/traces), Bengaluru team. IIT alumni founders, ex-Rubrik, ex-AWS. Raised $5.5M from Pear VC. Two Founding Engineer roles (Distributed Systems + Frontend) in Bengaluru — both still open from prior scan.",
+      "signalType": "Founding Engineer Hire",
+      "source": "jobs.ashbyhq.com/pear-vc and jobs.ashbyhq.com/pear — Jul 2026 (still open)",
+      "geography": "San Jose HQ / Bengaluru team — borderline India-first",
+      "urgency": "Low",
+      "relevance": "Low",
+      "action": "Monitor only — not India-first HQ, no watchlist investor. Status unchanged from prior scan."
+    },
+    {
+      "name": "zaimler",
+      "description": "Enterprise AI semantic knowledge platform — links fragmented enterprise data with knowledge-distilled models. Team ex-LinkedIn/Visa/Meta/Branch. Fortune 500 design partners. Hiring 'Founding Cloud Infrastructure Engineer' in Bangalore.",
+      "signalType": "Founding Engineer Hire",
+      "source": "jobs.lever.co/zaimler — Jul 2026",
+      "geography": "US-first HQ / Bangalore team",
+      "urgency": "Low",
+      "relevance": "Low",
+      "action": "Monitor only — US-first company with Bangalore ops, not India-HQ'd. Not a thesis fit as sourced."
+    }
+  ],
+  "watchlistFundActivity": [
+    {
+      "fund": "Rainmatter",
+      "company": "Econovus Packaging",
+      "round": "Rs 40 Cr pre-Series A",
+      "date": "2026-07-07",
+      "thesis": "Off-thesis (non-software B2B packaging)"
+    },
+    {
+      "fund": "IPV (Inflection Point Ventures)",
+      "company": "Heatronics",
+      "round": "Rs 1.8 Cr seed",
+      "date": "2026-07-02",
+      "thesis": "Off-thesis (hardware medical device)"
+    },
+    {
+      "fund": "Sauce.vc",
+      "company": "Uni Seoul",
+      "round": "Rs 35 Cr Series A",
+      "date": "2026-06",
+      "thesis": "Off-thesis (Series A pricing + offline retail)"
+    }
+  ],
+  "note": "Second scan run Jul 8 2026 (same calendar date as prior scan, rotated to under-covered angles). 32 distinct queries across sector (5), source (7), investor-watchlist (7), regional (2), accelerator (2), and stealth-hiring (8) angles. Key rotation: ran 6 additional ATS sites for stealth/hiring beyond prior scan's 2 (now: Greenhouse, Lever, SmartRecruiters, Workable, Ashby, BambooHR, Wellfound, Cutshort), added VCCircle and ET/Mint source angle, extended regional to Hyderabad/Chennai/Pune. Primary find: Fermi.ai (c052) — AI-first EdTech, pre-funding stealth, Mukesh Bansal (watchlist i19 = the FOUNDER) + ex-Flipkart CTO Peeyush Ranjan. Founding engineer hire in Bengaluru = pre-raise signal. Highest-pedigree find to date. Watchlist fund hits (Rainmatter, IPV, Sauce.vc) all landed on off-thesis companies this week. Prior-window radar: Arrowhead (voice AI, Kunal Shah watchlist, $3M seed Jan 2026, not yet tracked) flagged for next action.",
+  "nextScanRotateToward": [
+    "Long-tail aggregators not yet hit: Viestories, PNI News, LocalSamosa, ScoopEarth, TheHeadAndTale, Pulse2",
+    "Fund portfolio pages directly (not just news): Antler India portfolio page, Peak XV portfolio, Fireside Ventures, Better Capital, LetsVenture",
+    "Named angel deep-dives: Utsav Somani/iSeed recent deals, Binny Bansal xto10x portfolio, Shashank Kumar (Razorpay) recent bets",
+    "Add Arrowhead to tracker (voice AI, Kunal Shah warm path, not yet in companies.json)",
+    "Follow up on Rovia and SwishX (2+ scans in prior-window radar without being tracked)",
+    "Product Hunt India daily launches (missed last 2 scans)",
+    "Instahyre + Naukri founding engineer search (not yet run)"
+  ],
+  "engine": "firecrawl",
+  "newDepartures": 0,
+  "departuresFound": 0,
+  "raisesFound": 0
+}

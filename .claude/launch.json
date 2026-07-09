@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sparrow",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["scripts/scan-server.js"],
+      "port": 8787
+    }
+  ]
+}

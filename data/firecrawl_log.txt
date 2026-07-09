@@ -1,0 +1,62 @@
+
+
+=== Firecrawl crawl started 2026-07-09T05:06:20.651Z ===
+[firecrawl-scan] starting crawl @ 2026-07-09T05:06:20.813Z
+[firecrawl-scan] SIGNAL 1 — founder-factory departures…
+[firecrawl-scan]   14 news candidates, 56 snippet leads
+[firecrawl-scan]   scrape (1/12) https://www.moneycontrol.com/news/business/startup/swiggy-s-instamart-rejig-coo-ankit-jain-cbo-hari-kumar-quit-13957864.html
+[firecrawl-scan]   scrape (2/12) https://timesofindia.indiatimes.com/business/india-business/swiggy-cofounder-nandan-reddy-steps-down-may-start-up-again/articleshow/130176951.cms
+[firecrawl-scan]   scrape (3/12) https://timesofindia.indiatimes.com/etimes/trending/who-is-megha-agarwal-meeshos-top-executive-who-resigned-with-a-rs-2-29-crore-package/articleshow/126429600.cms
+[firecrawl-scan]   scrape (4/12) https://www.moneycontrol.com/news/business/startup/meesho-chro-ashish-kumar-singh-resigns-after-nearly-six-year-stint-13958797.html
+[firecrawl-scan]   scrape (5/12) https://www.fortuneindia.com/long-reads/indias-biggest-unicorns-ipo-bound-phonepe-is-busy-building-a-future-ready-business-heres-how/131131
+[firecrawl-scan]   scrape (6/12) https://timesofindia.indiatimes.com/business/india-business/girish-mathrubootham-steps-down-as-executive-chairman-of-freshworks-to-focus-on-his-vc-firm-together-fund/articleshow/123716138.cms
+[firecrawl-scan]   scrape (7/12) https://www.moneycontrol.com/news/business/freshworks-founder-girish-mathrubootham-to-exit-firm-stepping-down-as-executive-chairman-4-years-after-ipo-13523063.html
+[firecrawl-scan]   scrape (8/12) https://www.vccircle.com/freshworksfounder-girish-mathrubootham-steps-down-as-executive-chairman
+[firecrawl-scan]   scrape (9/12) https://techcrunch.com/2025/09/16/groww-backed-by-satya-nadella-set-to-become-first-indian-startup-to-go-public-after-u-s-to-india-move/
+[firecrawl-scan]   scrape (10/12) https://www.forbesindia.com/article/leadership/how-groww-has-cracked-the-growth-formula/2993007/1
+[firecrawl-scan]   scrape (11/12) https://www.cnbctv18.com/business/myntra-ceo-nandita-sinha-set-to-quit-sharon-pais-likely-successor-ws-l-19879968.htm
+[firecrawl-scan]   scrape (12/12) https://www.vccircle.com/flipkartpicks-insider-to-head-myntra-as-it-prepares-for-ipo
+[firecrawl-scan]   extracted 2 structured departures
+[firecrawl-scan] SIGNAL 2 — angel / pre-seed raises…
+[firecrawl-scan]   scrape (1/10) https://entrackr.com/tag/funding
+[firecrawl-scan]   scrape (2/10) https://inc42.com/tag/funding-galore/
+[firecrawl-scan]   scrape (3/10) https://yourstory.com/tag/funding
+[firecrawl-scan]   scrape (4/10) https://www.vccircle.com/category/startup
+[firecrawl-scan]   scrape (5/10) https://techcrunch.com/2025/12/27/india-startup-funding-hits-11b-in-2025-as-investors-grow-more-selective/
+[firecrawl-scan]   scrape (6/10) https://entrackr.com/snippets/antler-india-leads-1-mn-pre-seed-round-in-wealthtech-platform-rovia-11895889
+[firecrawl-scan]   scrape (7/10) https://entrackr.com/snippets/aum-ventures-launches-80-mn-india-innovation-fund-ii-12030916
+[firecrawl-scan]   scrape (8/10) https://entrackr.com/snippets/trusterra-bags-1-mn-in-pre-seed-round-co-led-by-finvolve-india-accelerator-10537428
+[firecrawl-scan]   scrape (9/10) https://entrackr.com/snippets/personal-finance-startup-finanjo-raises-rs-15-cr-pre-seed-funding-led-by-ajvc-11152846
+[firecrawl-scan]   scrape (10/10) https://entrackr.com/snippets/haircare-startup-xtovia-raises-pre-seed-funding-led-by-v3-ventures-12047086
+[firecrawl-scan]   extracted 15 early-stage raises
+data.js regenerated: 60 companies, 42 investors, 19 vcs, 3 departures, last scan: 2026-07-09T05:06:20.813Z
+[firecrawl-scan] DONE in 159s — +0 departures, +10 raises
+{"ok":true,"depAdded":0,"raiseAdded":10,"departuresFound":2,"raisesFound":15,"seconds":159}
+
+=== Firecrawl crawl finished 2026-07-09T05:09:00.135Z, exit 0 ===
+
+
+=== Firecrawl crawl started 2026-07-09T06:17:10.279Z ===
+[firecrawl-scan] starting crawl @ 2026-07-09T06:17:10.443Z
+[firecrawl-scan] SIGNAL 1 — senior leadership departures (starting own / stepped down)…
+[firecrawl-scan]   0 news candidates, 0 snippet leads
+[firecrawl-scan]   extracted 0 leadership departures (0 building own, 0 stepped down)
+[firecrawl-scan] SIGNAL 2 — angel / pre-seed raises…
+[firecrawl-scan]   scrape (1/7) https://entrackr.com/tag/funding
+[firecrawl-scan]   scrape (2/7) https://entrackr.com/tags/funding-news
+[firecrawl-scan]   scrape (3/7) https://entrackr.com/monthly-funding-report
+[firecrawl-scan]   scrape (4/7) https://entrackr.com/weekly-funding-report-weekly-funding-report
+[firecrawl-scan]   scrape (5/7) https://inc42.com/tag/funding-galore/
+[firecrawl-scan]   scrape (6/7) https://yourstory.com/tag/funding
+[firecrawl-scan]   scrape (7/7) https://www.vccircle.com/category/startup
+[firecrawl-scan]   extracted 0 early-stage raises
+[firecrawl-scan] RICH SIGNALS — general news + social feeds…
+[firecrawl-scan]   full-render scrape https://inc42.com/buzz/
+[firecrawl-scan]   full-render scrape https://inc42.com/tag/funding-galore/
+[firecrawl-scan]   full-render scrape https://x.com/TheCEO_Magazine
+[firecrawl-scan]   rich feeds → 0 raises, 0 leadership moves
+data.js regenerated: 92 companies, 42 investors, 19 vcs, 35 departures, last scan: 2026-07-09T06:17:10.443Z
+[firecrawl-scan] DONE in 29s — +0 departures, +0 raises
+{"ok":true,"depAdded":0,"raiseAdded":0,"departuresFound":0,"raisesFound":0,"seconds":29}
+
+=== Firecrawl crawl finished 2026-07-09T06:17:39.113Z, exit 0 ===

@@ -1,0 +1,716 @@
+[
+  {
+    "id": "v01",
+    "name": "AJVC",
+    "fullName": "A Junior VC",
+    "focus": "Pre-seed · All Sectors",
+    "stage": "Pre-Seed",
+    "ticketSize": "₹30–60L",
+    "website": "https://ajvc.com",
+    "recentPortfolio": [
+      {
+        "name": "Alchemic",
+        "provides": "AI agents that automate customer research, from interviews to insight reports, for businesses.",
+        "sector": "AI",
+        "stage": "Pre-Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://entrackr.com/snippets/alchemic-raises-rs-25-cr-pre-seed-round-led-by-ajvc-12142326"
+      },
+      {
+        "name": "Jaagruk Bharat",
+        "provides": "Civic-tech app to discover, apply for, and track government welfare schemes.",
+        "sector": "Other",
+        "stage": "Pre-Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://entrackr.com/snippets/jaagruk-bharat-raises-rs-15-cr-in-pre-seed-round-led-by-ajvc-10540026"
+      },
+      {
+        "name": "Chop Finance",
+        "provides": "Generative-AI platform automating workflows for finance and accounting professionals.",
+        "sector": "SaaS",
+        "stage": "Pre-Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://tracxn.com/d/companies/chopfinance/__jaCEB5fKzc0r7I4sJNis93-QUFcjGf-Wz_vI2-Fnu74/funding-and-investors"
+      },
+      {
+        "name": "Multibagg AI",
+        "provides": "AI-native equity research platform giving retail investors institutional-grade stock analytics.",
+        "sector": "Fintech",
+        "stage": "Pre-Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://entrackr.com/snippets/equity-research-startup-multibagg-ai-raises-rs-15-cr-in-pre-seed-round-led-by-ajvc-10980823"
+      },
+      {
+        "name": "Care Dale",
+        "provides": "Water-wellness brand making tap and shower filters for skin and hair.",
+        "sector": "Consumer",
+        "stage": "Pre-Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://entrackr.com/snippets/water-wellness-startup-care-dale-raises-pre-seed-funding-led-by-ajvc-11017614"
+      },
+      {
+        "name": "Bubble Me",
+        "provides": "Magnesium-focused D2C wellness brand for sleep, stress relief and muscle recovery.",
+        "sector": "Consumer",
+        "stage": "Pre-Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://entrackr.com/snippets/bubble-me-raises-rs-15-cr-in-pre-seed-round-led-by-ajvc-11171125"
+      }
+    ],
+    "portfolioCount": 25,
+    "vintage": "2022",
+    "description": "India's most active pre-seed fund. Deploy ₹40Cr+ per year across 25 companies.",
+    "sectors": [
+      "Fintech",
+      "AI",
+      "B2B",
+      "Consumer"
+    ],
+    "twitter": "@ajvc_fund",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v02",
+    "name": "100X.vc",
+    "fullName": "100X.vc",
+    "focus": "Pre-seed · All Sectors",
+    "stage": "Pre-Seed",
+    "ticketSize": "₹25L (₹1.5Cr dilution)",
+    "website": "https://100x.vc",
+    "recentPortfolio": [
+      {
+        "name": "Currychief",
+        "provides": "D2C ready-to-cook pastes and kits for authentic regional Indian dishes.",
+        "sector": "Consumer",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://inc42.com/buzz/meet-the-18-startups-backed-by-100x-vc-in-its-12th-cohort/"
+      },
+      {
+        "name": "Cellarim Labs",
+        "provides": "Cell-free biomanufacturing platform using AI-engineered enzymes for sustainable bio-based chemicals.",
+        "sector": "Deeptech",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://www.100x.vc/investment-thesis/cellarim-labs-100-x-vc-investment-thesis"
+      },
+      {
+        "name": "Multiple Class 12 cos",
+        "provides": "100X.vc Class 12 cohort: 18 early-stage startups, ~₹1.25 Cr each via iSAFE.",
+        "sector": "Other",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://yourstory.com/2025/01/100xvc-invests-27m-18-startups-12th-cohort"
+      }
+    ],
+    "portfolioCount": 200,
+    "vintage": "2019",
+    "description": "India's pioneering pre-seed fund with iSAFE instrument. 12 cohorts of 15-20 startups each.",
+    "sectors": [
+      "All"
+    ],
+    "twitter": "@100xvc",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v03",
+    "name": "Blume Ventures",
+    "fullName": "Blume Ventures",
+    "focus": "Seed to Series B",
+    "stage": "Seed",
+    "ticketSize": "$500K–$3M",
+    "website": "https://blume.vc",
+    "recentPortfolio": [
+      {
+        "name": "Powerup Money",
+        "provides": "Zero-commission, AI-driven mutual fund advisory and wealth-management app for Indians.",
+        "sector": "Fintech",
+        "stage": "Series A",
+        "lastValuation": "Undisclosed",
+        "source": "https://yourstory.com/2025/12/mutual-fund-platform-powerup-money-raises-12m-funding-led-by-peak-xv"
+      },
+      {
+        "name": "Knot.Dating",
+        "provides": "AI-powered conversational matchmaking and dating app (pivoted from social network Hood).",
+        "sector": "Consumer",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://inc42.com/buzz/shark-tank-fame-hood-pivots-to-matchmaking-renamed-knot-dating/"
+      },
+      {
+        "name": "Khyaal",
+        "provides": "Agetech app offering senior citizens wellness, digital literacy, payments and community.",
+        "sector": "Consumer",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://inc42.com/buzz/khyaal-raises-4-2-mn-to-empower-senior-citizens-with-digital-push/"
+      },
+      {
+        "name": "Battery Smart",
+        "provides": "Battery-swapping network offering battery-as-a-service for electric two- and three-wheelers.",
+        "sector": "Other",
+        "stage": "Series B",
+        "lastValuation": "$450M",
+        "source": "https://entrackr.com/news/battery-smarts-extended-series-b-round-pushes-valuation-to-450-mn-9405291"
+      },
+      {
+        "name": "Sourcewiz",
+        "provides": "SaaS platform helping exporters and manufacturers digitize catalogs, quotes and trade workflows.",
+        "sector": "SaaS",
+        "stage": "Pre-Series A",
+        "lastValuation": "Undisclosed",
+        "source": "https://techcrunch.com/2021/10/21/blume-ventures-and-awi-back-indian-exporter-saas-startup-sourcewiz/"
+      }
+    ],
+    "portfolioCount": 150,
+    "vintage": "2011",
+    "description": "India's leading seed fund. Fund IV = $290M. Both core investments and Discovery Program.",
+    "sectors": [
+      "Fintech",
+      "B2B",
+      "Consumer",
+      "AI"
+    ],
+    "twitter": "@blume_ventures",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v04",
+    "name": "Better Capital",
+    "fullName": "Better Capital",
+    "focus": "Day Zero · Pre-seed",
+    "stage": "Pre-Seed",
+    "ticketSize": "$100K–$500K",
+    "website": "https://bettercapital.vc",
+    "recentPortfolio": [
+      {
+        "name": "slice",
+        "provides": "Consumer fintech for credit and UPI, now merged into a small finance bank.",
+        "sector": "Fintech",
+        "stage": "Series B",
+        "lastValuation": "$1.5B",
+        "source": "https://techcrunch.com/2024/10/27/india-fintech-slice-now-bank/"
+      },
+      {
+        "name": "M2P",
+        "provides": "Banking-as-a-service API infrastructure powering cards, payments and lending for financial institutions.",
+        "sector": "Fintech",
+        "stage": "Series D",
+        "lastValuation": "$783M",
+        "source": "https://finance.yahoo.com/news/m2p-fintech-raises-100-million-153000561.html"
+      },
+      {
+        "name": "Rupeek",
+        "provides": "Doorstep, asset-backed gold loan fintech platform for Indian consumers.",
+        "sector": "Fintech",
+        "stage": "Series F",
+        "lastValuation": "$250M",
+        "source": "https://entrackr.com/2024/05/exclusive-rupeek-raises-fresh-funds-at-60-valuation-cut/"
+      },
+      {
+        "name": "SolarSquare",
+        "provides": "Residential rooftop solar company installing and financing systems for homes and societies.",
+        "sector": "Other",
+        "stage": "Series C",
+        "lastValuation": "$470M",
+        "source": "https://entrackr.com/decoding/decoding-solarsquare-valued-at-470-mn-after-series-c-co-founders-retain-275-stake-12130732"
+      },
+      {
+        "name": "Mili",
+        "provides": "AI meeting-assistant and agents automating note-taking and compliance for wealth advisors.",
+        "sector": "AI",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://www.thesaasnews.com/news/mili-raises-2-million-in-seed-round"
+      }
+    ],
+    "portfolioCount": 80,
+    "vintage": "2018",
+    "description": "Day-zero investor with strong AI and Fintech thesis. Portfolio includes multiple unicorns.",
+    "sectors": [
+      "Fintech",
+      "AI",
+      "B2B",
+      "Consumer"
+    ],
+    "twitter": "@BetterCapital_",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v05",
+    "name": "Antler India",
+    "fullName": "Antler India",
+    "focus": "Pre-company · Pre-seed",
+    "stage": "Pre-Company",
+    "ticketSize": "$100K–$250K",
+    "website": "https://antler.co/india",
+    "recentPortfolio": [
+      {
+        "name": "Multiple cohort cos",
+        "provides": "Antler India Day-Zero pre-seed cohort investments across sectors, backing founders from inception.",
+        "sector": "Other",
+        "stage": "Pre-Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://www.antler.co/location/india"
+      },
+      {
+        "name": "AI startups",
+        "provides": "Antler India's early-stage AI startup bets across its residency and pre-seed cohorts.",
+        "sector": "AI",
+        "stage": "Pre-Seed",
+        "lastValuation": "Undisclosed",
+        "source": "https://www.antler.co/location/india"
+      }
+    ],
+    "portfolioCount": 60,
+    "vintage": "2021",
+    "description": "Operator residency program that finds, validates and invests in startups before incorporation.",
+    "sectors": [
+      "All"
+    ],
+    "twitter": "@AntlerIndia",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v06",
+    "name": "Sauce.vc",
+    "fullName": "Sauce.vc",
+    "focus": "Pre-seed · Consumer/B2B",
+    "stage": "Pre-Seed",
+    "ticketSize": "₹50L–₹2Cr",
+    "website": "https://sauce.vc",
+    "recentPortfolio": [
+      {
+        "name": "Multiple consumer and B2B cos",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 30,
+    "vintage": "2020",
+    "description": "Early-stage fund focused on consumer and B2B companies with strong GTM.",
+    "sectors": [
+      "Consumer",
+      "B2B"
+    ],
+    "twitter": "@sauceVC",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v07",
+    "name": "Peak XV",
+    "fullName": "Peak XV Partners (Sequoia India)",
+    "focus": "Seed to Series C",
+    "stage": "Seed+",
+    "ticketSize": "$1M–$20M",
+    "website": "https://peakxv.com",
+    "recentPortfolio": [
+      {
+        "name": "Sarvam AI",
+        "provides": "Full-stack sovereign AI startup building Indic large language models and voice AI.",
+        "sector": "AI",
+        "stage": "Series B",
+        "lastValuation": "$1.5B",
+        "source": "https://www.dealstreetasia.com/stories/sarvam-funding-485574"
+      },
+      {
+        "name": "Multiple unicorns",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Growth",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 400,
+    "vintage": "2006",
+    "description": "Formerly Sequoia India & SEA. India's most successful VC fund. Also runs Surge program.",
+    "sectors": [
+      "All"
+    ],
+    "twitter": "@PeakXVPartners",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v08",
+    "name": "Indian Angel Network",
+    "fullName": "Indian Angel Network (IAN)",
+    "focus": "Angel · Seed",
+    "stage": "Angel/Seed",
+    "ticketSize": "$50K–$1.5M",
+    "website": "https://indianangelnetwork.com",
+    "recentPortfolio": [
+      {
+        "name": "Multiple angel investments",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 200,
+    "vintage": "2006",
+    "description": "India's largest angel network with 550+ members. Sector-agnostic.",
+    "sectors": [
+      "All"
+    ],
+    "twitter": "@IANGlobal",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v09",
+    "name": "Fireside Ventures",
+    "fullName": "Fireside Ventures",
+    "focus": "Seed to Series B · Consumer",
+    "stage": "Seed",
+    "ticketSize": "$500K–$5M",
+    "website": "https://firesideventures.in",
+    "recentPortfolio": [
+      {
+        "name": "Mama Earth",
+        "provides": "Digital-first natural personal care and beauty brand under Honasa Consumer.",
+        "sector": "Consumer",
+        "stage": "Public (IPO Nov 2023)",
+        "lastValuation": "~₹10,400 Cr (IPO)",
+        "source": "https://www.chittorgarh.com/ipo/mamaearth-ipo/1551/"
+      },
+      {
+        "name": "boAt (early)",
+        "provides": "Consumer electronics brand selling audio wearables, earphones, and smartwatches.",
+        "sector": "Consumer",
+        "stage": "Pre-IPO (Series C)",
+        "lastValuation": "~$1.4B",
+        "source": "https://www.indianretailer.com/news/boat-parent-company-imagine-marketing-files-rs-1500-cr-ipo-sebi"
+      },
+      {
+        "name": "Bombay Shaving Company",
+        "provides": "D2C men's grooming and personal care brand across shaving and skincare.",
+        "sector": "Consumer",
+        "stage": "Growth (Pre-IPO)",
+        "lastValuation": "₹947 Cr",
+        "source": "https://tracxn.com/d/companies/bombay-shaving/__GS5sd1uTavrIu2IrFTrKDDrEFlTg1IBpqrEhp2tKGX4/latest-shareholding"
+      }
+    ],
+    "portfolioCount": 50,
+    "vintage": "2017",
+    "description": "India's dedicated consumer brand fund. Focus on D2C, FMCG, and consumer-tech.",
+    "sectors": [
+      "Consumer",
+      "D2C",
+      "FMCG"
+    ],
+    "twitter": "@FiresideVC",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v10",
+    "name": "V3 Ventures",
+    "fullName": "V3 Ventures",
+    "focus": "Seed · Consumer D2C/Health",
+    "stage": "Seed",
+    "ticketSize": "$250K–$2M",
+    "website": "https://v3.ventures",
+    "recentPortfolio": [
+      {
+        "name": "Dr. Vaidya's",
+        "provides": "D2C Ayurvedic health and wellness brand, acquired by RPSG Group.",
+        "sector": "Consumer",
+        "stage": "Acquired (RPSG)",
+        "lastValuation": "₹144 Cr",
+        "source": "https://www.founderthesis.com/p/arjun-vaidyas-144-crore-exit-revitalizing"
+      },
+      {
+        "name": "Multiple D2C health brands",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 20,
+    "vintage": "2021",
+    "description": "D2C focused fund by Arjun Vaidya. Strong in health, wellness and consumer brands.",
+    "sectors": [
+      "Consumer",
+      "D2C",
+      "Health"
+    ],
+    "twitter": "@V3Ventures",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v11",
+    "name": "LetsVenture",
+    "fullName": "LetsVenture",
+    "focus": "Angel · Seed Platform",
+    "stage": "Angel/Seed",
+    "ticketSize": "$50K–$2M",
+    "website": "https://letsventure.com",
+    "recentPortfolio": [
+      {
+        "name": "Multiple platform investments",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 500,
+    "vintage": "2013",
+    "description": "India's largest startup investment platform connecting angels with startups. 700+ angel investors.",
+    "sectors": [
+      "All"
+    ],
+    "twitter": "@LetsVenture",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v12",
+    "name": "IPV Ventures",
+    "fullName": "IPV (Investment Partners for Ventures)",
+    "focus": "Pre-seed · Seed",
+    "stage": "Pre-Seed/Seed",
+    "ticketSize": "₹25L–₹2Cr",
+    "website": "https://ipventures.in",
+    "recentPortfolio": [
+      {
+        "name": "Multiple cos across sectors",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 80,
+    "vintage": "2019",
+    "description": "Early-stage fund with a founder-friendly approach. Focus on Consumer and Fintech.",
+    "sectors": [
+      "Consumer",
+      "Fintech",
+      "B2B"
+    ],
+    "twitter": "@ipventures",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v13",
+    "name": "IVY Capital",
+    "fullName": "IVY Capital",
+    "focus": "Pre-seed · B2B/Fintech",
+    "stage": "Pre-Seed",
+    "ticketSize": "₹50L–₹3Cr",
+    "website": "",
+    "recentPortfolio": [
+      {
+        "name": "Multiple early-stage B2B cos",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 40,
+    "vintage": "2020",
+    "description": "Early-stage fund focused on B2B and fintech with strong operator network.",
+    "sectors": [
+      "B2B",
+      "Fintech"
+    ],
+    "twitter": "",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v14",
+    "name": "All In Capital",
+    "fullName": "All In Capital",
+    "focus": "Pre-seed · All Sectors",
+    "stage": "Pre-Seed",
+    "ticketSize": "₹30L–₹1Cr",
+    "website": "",
+    "recentPortfolio": [
+      {
+        "name": "Multiple pre-seed investments",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Pre-Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 35,
+    "vintage": "2021",
+    "description": "Pre-seed fund run by experienced operators. Sector-agnostic with AI and Fintech thesis.",
+    "sectors": [
+      "AI",
+      "Fintech",
+      "Consumer"
+    ],
+    "twitter": "",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v15",
+    "name": "Ah Ventures",
+    "fullName": "Ah Ventures (Angel Hub)",
+    "focus": "Angel · Pre-seed",
+    "stage": "Angel",
+    "ticketSize": "₹25L–₹1Cr",
+    "website": "https://ahventures.in",
+    "recentPortfolio": [
+      {
+        "name": "Multiple consumer and B2B cos",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 100,
+    "vintage": "2015",
+    "description": "Angel network and micro-VC focused on early-stage startups.",
+    "sectors": [
+      "Consumer",
+      "B2B",
+      "Fintech"
+    ],
+    "twitter": "@AhVentures",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v16",
+    "name": "Hem Angels",
+    "fullName": "Hem Angels",
+    "focus": "Angel · Pre-seed",
+    "stage": "Angel",
+    "ticketSize": "₹10L–₹50L",
+    "website": "",
+    "recentPortfolio": [
+      {
+        "name": "Multiple angel investments",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 50,
+    "vintage": "2018",
+    "description": "Angel network with focus on early-stage India startups. Strong Rajasthan/North India network.",
+    "sectors": [
+      "All"
+    ],
+    "twitter": "",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v17",
+    "name": "Pedal Start",
+    "fullName": "Pedal Start",
+    "focus": "Pre-seed · Very early",
+    "stage": "Pre-Seed",
+    "ticketSize": "₹10L–₹25L",
+    "website": "https://pedalstart.com",
+    "recentPortfolio": [
+      {
+        "name": "Very early stage pre-seed companies",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Pre-Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 60,
+    "vintage": "2016",
+    "description": "Accelerator and very early stage investor. Good pipeline for companies before AJVC/100X stage.",
+    "sectors": [
+      "All"
+    ],
+    "twitter": "@PedalStart",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v18",
+    "name": "RainMatter",
+    "fullName": "RainMatter (Zerodha Fund)",
+    "focus": "Seed · Fintech/Sustainability",
+    "stage": "Seed",
+    "ticketSize": "$100K–$2M",
+    "website": "https://rainmatter.com",
+    "recentPortfolio": [
+      {
+        "name": "Smallcase",
+        "provides": "Investment platform offering curated stock and ETF portfolios called smallcases.",
+        "sector": "Fintech",
+        "stage": "Series D",
+        "lastValuation": "~₹2,520 Cr (~$300M)",
+        "source": "https://tracxn.com/d/companies/smallcase/__fgKTdnopyFbKnIrFT8RvVPjB6eAuBaLUw63XV35Mf-k/latest-shareholding"
+      },
+      {
+        "name": "Sensibull",
+        "provides": "Options trading and analytics platform for retail derivatives traders in India.",
+        "sector": "Fintech",
+        "stage": "Series A",
+        "lastValuation": "$30.1M",
+        "source": "https://tracxn.com/d/companies/sensibull/__GkZCFgiWMo-6jML1dgqQZFjZtD65JYNqTaXLaNb2Lew/latest-shareholding"
+      },
+      {
+        "name": "Multiple fintech cos",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 30,
+    "vintage": "2016",
+    "description": "Zerodha's investment arm. Strongly thesis-driven: Fintech, sustainability, and mental health.",
+    "sectors": [
+      "Fintech",
+      "Sustainability",
+      "Health"
+    ],
+    "twitter": "@RainMatterCap",
+    "source": "seed-demo"
+  },
+  {
+    "id": "v19",
+    "name": "Accell",
+    "fullName": "Accell India",
+    "focus": "Seed · Deep Tech/B2B",
+    "stage": "Seed",
+    "ticketSize": "$250K–$2M",
+    "website": "",
+    "recentPortfolio": [
+      {
+        "name": "Deep tech and B2B SaaS companies",
+        "provides": "",
+        "sector": "Other",
+        "stage": "Seed",
+        "lastValuation": "Undisclosed",
+        "source": ""
+      }
+    ],
+    "portfolioCount": 25,
+    "vintage": "2020",
+    "description": "Deep tech and B2B SaaS focused seed fund. Strong in enterprise software and AI.",
+    "sectors": [
+      "DeepTech",
+      "B2B",
+      "AI"
+    ],
+    "twitter": "",
+    "source": "seed-demo"
+  }
+]
