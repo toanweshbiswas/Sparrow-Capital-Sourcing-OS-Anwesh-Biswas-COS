@@ -1,19 +1,11 @@
-// Regenerates data.js from data/*.json — the dashboard's fallback data source
-// — and syncs the same data into Supabase, which scan-server.js reads live on
-// every request (see scripts/lib/supabase.js and db/schema.sql).
+// Regenerates data.js from data/*.json — the dashboard's actual data source.
 // Run this after any write to data/companies.json, people.json, vcs.json, or last_scan.json
 // (i.e. after /scan-raises, /company-brief, /follow-ups, or a manual tracker edit).
 //   node scripts/regenerate-data-js.js
-'use strict';
-
 const fs = require('fs');
 const path = require('path');
-const { loadEnv } = require('./lib/env');
-const { client } = require('./lib/supabase');
-const { buildDataJs } = require('./lib/build-data-js');
 
 const root = path.resolve(__dirname, '..');
-loadEnv(root);
 const dataDir = path.join(root, 'data');
 const outFile = path.join(root, 'data.js');
 
@@ -33,24 +25,24 @@ const memos = readOptional(path.join(dataDir, 'memos.json'), []);
 // Dashboard's Investors view expects individuals only (SEED_INVESTORS shape).
 const investors = people.filter(p => p.type === 'Angel');
 
-fs.writeFileSync(outFile, buildDataJs({ companies, investors, vcs, departures, memos, lastScan }));
+const banner = `/* ================================================================
+   Sparrow Capital Sourcing OS — data.js
+   GENERATED FILE — do not hand-edit. Regenerated from data/*.json
+   by scripts/regenerate-data-js.js after every tracker write.
+   Source of truth lives in data/companies.json, data/people.json,
+   data/vcs.json, data/touches.json.
+   ================================================================ */
+'use strict';
+
+`;
+
+const body =
+  `const SEED_COMPANIES = ${JSON.stringify(companies, null, 2)};\n\n` +
+  `const SEED_INVESTORS = ${JSON.stringify(investors, null, 2)};\n\n` +
+  `const SEED_VCS = ${JSON.stringify(vcs, null, 2)};\n\n` +
+  `const SEED_DEPARTURES = ${JSON.stringify(departures, null, 2)};\n\n` +
+  `const SEED_MEMOS = ${JSON.stringify(memos, null, 2)};\n\n` +
+  `const LAST_SCAN = ${JSON.stringify(lastScan, null, 2)};\n`;
+
+fs.writeFileSync(outFile, banner + body);
 console.log(`data.js regenerated: ${companies.length} companies, ${investors.length} investors, ${vcs.length} vcs, ${departures.length} departures, last scan: ${lastScan.timestamp || 'never'}`);
-
-// Best-effort Supabase sync — the local data.js above is written regardless,
-// so a missing/misconfigured Supabase project never blocks the dashboard.
-async function syncSupabase() {
-  if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY) {
-    console.log('Supabase sync skipped: SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY not set.');
-    return;
-  }
-  const sb = client(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
-  await sb.replaceAll('companies', companies.map(c => ({ id: c.id, data: c })));
-  await sb.replaceAll('investors', people.map(p => ({ id: p.id, data: p })));
-  await sb.replaceAll('vcs', vcs.map(v => ({ id: v.id, data: v })));
-  await sb.replaceAll('departures', departures.map(d => ({ id: d.id, data: d })));
-  await sb.replaceAll('memos', memos.map(m => ({ id: m.id, data: m })));
-  await sb.upsert('meta', [{ key: 'last_scan', data: lastScan }], 'key');
-  console.log('Supabase synced.');
-}
-
-syncSupabase().catch(err => console.error('Supabase sync failed:', err.message));

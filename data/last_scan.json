@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-09T06:17:10.443Z",
+  "timestamp": "2026-07-09T09:51:31.312Z",
   "window": "last ~12 months (qdr:y)",
   "queriesRun": [
     {
@@ -137,7 +137,7 @@
     "inc42/buzz",
     "x.com/TheCEO_Magazine"
   ],
-  "newCompanies": 0,
+  "newCompanies": 26,
   "keptRaises": [
     {
       "name": "Fermi.ai",
@@ -318,7 +318,7 @@
     "Instahyre + Naukri founding engineer search (not yet run)"
   ],
   "engine": "firecrawl",
-  "newDepartures": 0,
-  "departuresFound": 0,
-  "raisesFound": 0
+  "newDepartures": 8,
+  "departuresFound": 37,
+  "raisesFound": 42
 }
