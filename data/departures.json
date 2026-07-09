@@ -10,20 +10,22 @@
     "source": "https://timesofindia.indiatimes.com/business/india-business/swiggy-cofounder-nandan-reddy-steps-down-may-start-up-again/articleshow/130176951.cms",
     "status": "New Signal",
     "foundAt": "2026-07-09T04:52:32.637Z",
-    "watchlisted": true
+    "watchlisted": true,
+    "moveType": "starting_own"
   },
   {
     "id": "d002",
     "founder": "Girish Mathrubootham",
     "exEmployer": "Freshworks",
     "exDesignation": "Executive Chairman",
-    "currentBuilding": "Together Fund",
+    "currentBuilding": "",
     "sector": "Venture Capital",
     "linkedin": "",
     "source": "https://timesofindia.indiatimes.com/city/chennai/girish-mathrubootham-steps-down-as-executive-chairman-of-freshworks-to-focus-on-his-vc-firm-together-fund/articleshow/123716086.cms",
     "status": "New Signal",
     "foundAt": "2026-07-09T04:52:32.637Z",
-    "watchlisted": true
+    "watchlisted": true,
+    "moveType": "stepped_down"
   },
   {
     "id": "d003",
@@ -40,19 +42,6 @@
     "watchlisted": true
   },
   {
-    "id": "d004",
-    "founder": "Kunal Shah",
-    "exEmployer": "CRED",
-    "exDesignation": "CEO",
-    "currentBuilding": "stealth fintech",
-    "sector": "Fintech",
-    "linkedin": "",
-    "source": "https://techcrunch.com/2026/06/22/whatsapp-gets-new-chief-as-meta-taps-indias-cred-founder-kunal-shah-and-invests-900m-in-startup/",
-    "status": "New Signal",
-    "foundAt": "2026-07-09T05:37:12.966Z",
-    "watchlisted": true
-  },
-  {
     "id": "d005",
     "founder": "Ujjwal Jain",
     "exEmployer": "PhonePe",
@@ -63,7 +52,8 @@
     "source": "https://www.moneycontrol.com/technology/phonepe-elevates-srijon-biswas-as-cto-co-founder-rahul-chari-is-cpto-article-13968865.html",
     "status": "New Signal",
     "foundAt": "2026-07-09T05:37:12.966Z",
-    "watchlisted": true
+    "watchlisted": true,
+    "moveType": "starting_own"
   },
   {
     "id": "d006",
@@ -484,5 +474,117 @@
     "source": "https://www.moneycontrol.com/news/business/startup/zepto-s-meat-business-ceo-chandan-rungta-quits-latest-in-a-string-of-exits-13653419.html",
     "status": "New Signal",
     "foundAt": "2026-07-09T06:11:38.805Z"
+  },
+  {
+    "id": "d036",
+    "founder": "Ashish Kumar Singh",
+    "exEmployer": "Meesho",
+    "exDesignation": "Chief Human Resources Officer (CHRO)",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://www.moneycontrol.com/news/business/startup/meesho-chro-ashish-kumar-singh-resigns-after-nearly-six-year-stint-13958797.html",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d037",
+    "founder": "Megha Agarwal",
+    "exEmployer": "Meesho",
+    "exDesignation": "Chief Experience Officer (Business)",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://timesofindia.indiatimes.com/etimes/trending/who-is-megha-agarwal-meeshos-top-executive-who-resigned-with-a-rs-2-29-crore-package/articleshow/126429600.cms",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d038",
+    "founder": "Madhur Deora",
+    "exEmployer": "Paytm",
+    "exDesignation": "President and Group CFO",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://yourstory.com/2025/07/paytm-overhauls-board-amid-profitability-madhur-deora-resign",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d039",
+    "founder": "Bhavish Aggarwal",
+    "exEmployer": "Ola",
+    "exDesignation": "Co-founder and CEO",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://startuptalky.com/startup-story-ola/",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d040",
+    "founder": "Swayam Saurabh",
+    "exEmployer": "Ola",
+    "exDesignation": "Chief Financial Officer (CFO)",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://startuptalky.com/startup-story-ola/",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d041",
+    "founder": "Gaurav Porwal",
+    "exEmployer": "Ola",
+    "exDesignation": "Chief Operating Officer (COO)",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://startuptalky.com/startup-story-ola/",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d042",
+    "founder": "Arun Sirdeshmukh",
+    "exEmployer": "Ola",
+    "exDesignation": "CEO of Ola Cars",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://startuptalky.com/startup-story-ola/",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d043",
+    "founder": "Amit Sharma",
+    "exEmployer": "Dream Sports",
+    "exDesignation": "CTO",
+    "moveType": "starting_own",
+    "currentBuilding": "stealth AI venture",
+    "sector": "AI",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://inc42.com/buzz/dream-sports-cto-amit-sharma-quits-to-start-own-ai-venture/",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
   }
 ]

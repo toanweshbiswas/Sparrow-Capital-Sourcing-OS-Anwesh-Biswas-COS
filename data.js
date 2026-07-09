@@ -483,30 +483,6 @@ const SEED_COMPANIES = [
     "createdAt": "2026-07-08"
   },
   {
-    "id": "c053",
-    "name": "Skyroot Aerospace",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Spacetech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Skyroot aims to develop advanced space technology.",
-    "founderPedigree": [],
-    "founders": [],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/tag/funding",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $60 Mn (Angel) from India's first spacetech unicorn — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "India's first spacetech unicorn"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T04:46:50.886Z"
-  },
-  {
     "id": "c054",
     "name": "Scapia",
     "website": "",
@@ -525,8 +501,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised $92 Mn (Seed) from Not Disclosed — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -554,8 +530,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised $52 Mn (Seed) from Not Disclosed — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -583,8 +559,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Low",
+    "thesisScore": 71,
     "whyNow": "Just raised $132 Mn (Seed) from Not Disclosed — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -597,7 +573,7 @@ const SEED_COMPANIES = [
     "id": "c057",
     "name": "Snabbit",
     "website": "",
-    "sector": "Consumer",
+    "sector": "B2B",
     "subSector": "Logistics",
     "stage": "Seed",
     "geography": "India",
@@ -613,7 +589,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 76,
     "whyNow": "Just raised $204 Mn (Seed) from Not Disclosed — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -641,8 +617,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised $39 Mn (Seed) from Not Disclosed — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -670,8 +646,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised $60 Mn (Seed) from Not Disclosed — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -694,8 +670,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://yourstory.com/tag/funding",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised Rs 61 Cr (Angel) from Kliff Ventures — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -708,7 +684,7 @@ const SEED_COMPANIES = [
     "id": "c061",
     "name": "BigEndian Semiconductors",
     "website": "",
-    "sector": "Consumer",
+    "sector": "AI",
     "subSector": "Semiconductors",
     "stage": "Pre-Seed",
     "geography": "India",
@@ -718,8 +694,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://yourstory.com/tag/funding",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Low",
+    "thesisScore": 78,
     "whyNow": "Just raised $6M (Angel) from IAN Alpha Fund — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -751,8 +727,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://yourstory.com/2026/07/startup-news-and-updates-daily-roundup-july-8-2026",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Low",
+    "thesisScore": 71,
     "whyNow": "Just raised $2.4 million (Seed) from Caret Capital, Antler India, Alteria Capital, IAN Capital, Climate Angels, Aureolis Capital — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -767,7 +743,7 @@ const SEED_COMPANIES = [
     "id": "c063",
     "name": "Doodhvale Farms",
     "website": "",
-    "sector": "AI",
+    "sector": "Consumer",
     "subSector": "D2C Dairy",
     "stage": "Pre-Seed",
     "geography": "India",
@@ -777,8 +753,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://yourstory.com/2026/07/startup-news-and-updates-daily-roundup-july-8-2026",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised $1 million (Angel) from Atomic Capital Fund I — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -801,8 +777,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://yourstory.com/2026/07/startup-news-and-updates-daily-roundup-july-8-2026",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised Rs 14 crore (Angel) from Naresh Bhat, Joseph Thomas, Bharat Tandon, Vikas K S, Vivek Mishra — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -832,8 +808,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://yourstory.com/2026/07/startup-news-and-updates-daily-roundup-july-8-2026",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised Rs 9 crore (Pre-Seed) from Blume Ventures, The Barbershop Fund, Consumer Collective, Veltis Capital, several angel investors — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -848,7 +824,7 @@ const SEED_COMPANIES = [
     "id": "c066",
     "name": "eNLife Research",
     "website": "",
-    "sector": "Consumer",
+    "sector": "AI",
     "subSector": "Deeptech",
     "stage": "Seed",
     "geography": "India",
@@ -859,7 +835,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://yourstory.com/2026/07/startup-news-and-updates-daily-roundup-july-8-2026",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 78,
     "whyNow": "Just raised Rs 6 crore (Seed) from Piper Serica VC Fund — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -882,8 +858,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://yourstory.com/2026/07/startup-news-and-updates-daily-roundup-july-8-2026",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised Rs 4 crore (Angel) from Proteus Partners, Puru Gupta, Sreejith Moolayil, Dr A. Velumani, Bharat ke Super Founders — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -908,8 +884,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-29-july-04-12132613",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised $17M (Seed) from Gaja Capital, DSG Consumer Partners — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -923,7 +899,7 @@ const SEED_COMPANIES = [
     "id": "c069",
     "name": "Supply6",
     "website": "",
-    "sector": "AI",
+    "sector": "B2B",
     "subSector": "Supply Chain",
     "stage": "Pre-Seed",
     "geography": "India",
@@ -933,8 +909,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-29-july-04-12132613",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 74,
     "whyNow": "Recently closed an early pre-seed round — early window to reach the founder before the round is fully deployed.",
     "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
@@ -955,8 +931,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-29-july-04-12132613",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 69,
     "whyNow": "Recently closed an early pre-seed round — early window to reach the founder before the round is fully deployed.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
@@ -978,7 +954,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-may-18-may-23-11865322",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 79,
     "whyNow": "Just raised $3.7M (Seed) from Lightspeed, InfoEdge Ventures — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Fintech raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1002,8 +978,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-may-18-may-23-11865322",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 69,
     "whyNow": "Just raised $3.5M (Seed) — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
@@ -1030,7 +1006,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 78,
     "whyNow": "Just raised $32 million (Seed) from Mayfield, Aramco Ventures, angel investors — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1060,8 +1036,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised ₹120 crore (Angel) from Singularity AMC — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1089,8 +1065,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised $7 million (Seed) from Lightspeed — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1118,8 +1094,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised $3.5 million (Seed) from Infinity Ventures, several family offices — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1133,7 +1109,7 @@ const SEED_COMPANIES = [
     "id": "c077",
     "name": "Rovia",
     "website": "",
-    "sector": "Consumer",
+    "sector": "Fintech",
     "subSector": "Wealthtech",
     "stage": "Pre-Seed",
     "geography": "India",
@@ -1153,7 +1129,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/snippets/antler-india-leads-1-mn-pre-seed-round-in-wealthtech-platform-rovia-11895889",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 79,
     "whyNow": "Just raised $1 Mn (Pre-Seed) from Antler India, CDM Capital, AC Ventures, Operators Studio, angel investors — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1187,8 +1163,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/snippets/aum-ventures-launches-80-mn-india-innovation-fund-ii-12030916",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Low",
+    "thesisScore": 71,
     "whyNow": "Just raised $10M (Seed) from Aum Ventures — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1216,8 +1192,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/snippets/aum-ventures-launches-80-mn-india-innovation-fund-ii-12030916",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Low",
+    "thesisScore": 71,
     "whyNow": "Just raised $5M (Pre-Seed) from Aum Ventures — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1246,7 +1222,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/snippets/aum-ventures-launches-80-mn-india-innovation-fund-ii-12030916",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 78,
     "whyNow": "Just raised $15M (Seed) from Aum Ventures — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1274,8 +1250,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/snippets/aum-ventures-launches-80-mn-india-innovation-fund-ii-12030916",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Low",
+    "thesisScore": 71,
     "whyNow": "Just raised $2M (Angel) from Aum Ventures — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1283,30 +1259,6 @@ const SEED_COMPANIES = [
     ],
     "status": "New Signal",
     "createdAt": "2026-07-09T04:46:50.886Z"
-  },
-  {
-    "id": "c082",
-    "name": "HyugaLife",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Healthtech",
-    "stage": "Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "HyugaLife focuses on health and wellness solutions.",
-    "founderPedigree": [],
-    "founders": [],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/tag/funding",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $10.5M (Seed) from IvyCap Ventures — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "IvyCap Ventures"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T04:52:32.637Z"
   },
   {
     "id": "c083",
@@ -1322,167 +1274,12 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised $187 Mn (Seed) from Various — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
       "Various"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T04:52:32.637Z"
-  },
-  {
-    "id": "c084",
-    "name": "QpiAI",
-    "website": "",
-    "sector": "AI",
-    "subSector": "AI",
-    "stage": "Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "A startup focused on quantum computing, recently co-led by the Indian government.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "N/A",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://techcrunch.com/2025/12/27/india-startup-funding-hits-11b-in-2025-as-investors-grow-more-selective/",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $32M (Seed) from Indian Government — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Indian Government"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T04:52:32.637Z"
-  },
-  {
-    "id": "c085",
-    "name": "HelioHealth",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Healthtech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Provides telehealth solutions for remote patient monitoring.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Dr. Neha Modi",
-        "role": "Founder"
-      },
-      {
-        "name": "Vivek Sharma",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://techcrunch.com/2025/12/27/india-startup-funding-hits-11b-in-2025-as-investors-grow-more-selective/",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹8 crore (Angel) from Angel investors, Accel — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Angel investors",
-      "Accel"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T04:52:32.637Z"
-  },
-  {
-    "id": "c086",
-    "name": "DeepTech Solutions",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Deep Tech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Developing innovative AI-driven solutions for manufacturing.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Sanjay Verma",
-        "role": "Founder"
-      },
-      {
-        "name": "Priya Gupta",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://techcrunch.com/2025/12/27/india-startup-funding-hits-11b-in-2025-as-investors-grow-more-selective/",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $2M (Pre-Seed) from Inflection Point Ventures — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Inflection Point Ventures"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T04:52:32.637Z"
-  },
-  {
-    "id": "c087",
-    "name": "EcoCommerce",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "E-commerce",
-    "stage": "Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "An online marketplace for sustainable products.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Riya Agarwal",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://techcrunch.com/2025/12/27/india-startup-funding-hits-11b-in-2025-as-investors-grow-more-selective/",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $1.5M (Seed) from Lightspeed, Accel — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Lightspeed",
-      "Accel"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T04:52:32.637Z"
-  },
-  {
-    "id": "c088",
-    "name": "Agritech Innovations",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Agritech",
-    "stage": "Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Utilizes AI to optimize agricultural practices for farmers.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Rahul Rao",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://techcrunch.com/2025/12/27/india-startup-funding-hits-11b-in-2025-as-investors-grow-more-selective/",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹5 crore (Seed) from Nexus Venture Partners — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Nexus Venture Partners"
     ],
     "status": "New Signal",
     "createdAt": "2026-07-09T04:52:32.637Z"
@@ -1518,8 +1315,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/snippets/trusterra-bags-1-mn-in-pre-seed-round-co-led-by-finvolve-india-accelerator-10537428",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Low",
+    "thesisScore": 78,
     "whyNow": "Just raised ₹9 crore (Pre-Seed) from Finvolve, India Accelerator, GrowthCap Ventures, Shishir Maheswari, Samrath Jit Singh, Ayush Lohia, Kapil Nirmal — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1544,8 +1341,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Low",
+    "thesisScore": 69,
     "whyNow": "Recently closed an early seed round — early window to reach the founder before the round is fully deployed.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
@@ -1566,8 +1363,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 69,
     "whyNow": "Recently closed an early seed round — early window to reach the founder before the round is fully deployed.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
@@ -1578,7 +1375,7 @@ const SEED_COMPANIES = [
     "id": "c092",
     "name": "Ikin Global",
     "website": "",
-    "sector": "Consumer",
+    "sector": "B2B",
     "subSector": "IoT",
     "stage": "Seed",
     "geography": "India",
@@ -1588,8 +1385,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 74,
     "whyNow": "Recently closed an early seed round — early window to reach the founder before the round is fully deployed.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
@@ -1610,8 +1407,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 77,
     "whyNow": "Recently closed an early seed round — early window to reach the founder before the round is fully deployed.",
     "whySparrow": "Early-stage Fintech raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
@@ -1632,8 +1429,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 69,
     "whyNow": "Recently closed an early seed round — early window to reach the founder before the round is fully deployed.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
@@ -1644,7 +1441,7 @@ const SEED_COMPANIES = [
     "id": "c095",
     "name": "Xtovia",
     "website": "",
-    "sector": "AI",
+    "sector": "Consumer",
     "subSector": "Haircare",
     "stage": "Pre-Seed",
     "geography": "India",
@@ -1663,8 +1460,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/snippets/haircare-startup-xtovia-raises-pre-seed-funding-led-by-v3-ventures-12047086",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised ₹6.9 crore (Pre-Seed) from V3 Ventures, Consumer Collective by Atrium, angel investors — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1679,7 +1476,7 @@ const SEED_COMPANIES = [
     "id": "c096",
     "name": "Pronto",
     "website": "",
-    "sector": "Consumer",
+    "sector": "B2B",
     "subSector": "Logistics",
     "stage": "Seed",
     "geography": "India",
@@ -1694,8 +1491,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 74,
     "whyNow": "Just raised $132 Mn (Seed) — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
@@ -1721,8 +1518,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 69,
     "whyNow": "Just raised $204 Mn (Seed) — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
@@ -1748,8 +1545,8 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 69,
     "whyNow": "Just raised $39 Mn (Seed) — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
@@ -1775,180 +1572,11 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 69,
     "whyNow": "Just raised $60 Mn (Seed) — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:06:20.813Z"
-  },
-  {
-    "id": "c100",
-    "name": "AI Innovations",
-    "website": "",
-    "sector": "AI",
-    "subSector": "AI",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "AI Innovations provides machine learning solutions for businesses looking to enhance operational efficiency.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Ravi Kumar",
-        "role": "Founder"
-      },
-      {
-        "name": "Sneha Patel",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://techcrunch.com/2025/12/27/india-startup-funding-hits-11b-in-2025-as-investors-grow-more-selective/",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $2.5M (Angel) from Inflection Point Ventures, Accel — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Inflection Point Ventures",
-      "Accel"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:06:20.813Z"
-  },
-  {
-    "id": "c101",
-    "name": "HealthNest",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Healthtech",
-    "stage": "Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "HealthNest is a digital health platform that connects patients with healthcare providers for telemedicine services.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Neha Sharma",
-        "role": "Founder"
-      },
-      {
-        "name": "Rajiv Gupta",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://techcrunch.com/2025/12/27/india-startup-funding-hits-11b-in-2025-as-investors-grow-more-selective/",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹4 crore (Seed) from Lightspeed, Sequoia — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Lightspeed",
-      "Sequoia"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:06:20.813Z"
-  },
-  {
-    "id": "c102",
-    "name": "EcoVibe",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Consumer",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "EcoVibe offers sustainable products for daily living, promoting an eco-friendly lifestyle.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Anita Rao",
-        "role": "Founder"
-      },
-      {
-        "name": "Vishal Kumar",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://techcrunch.com/2025/12/27/india-startup-funding-hits-11b-in-2025-as-investors-grow-more-selective/",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $1M (Pre-Seed) from Blume Ventures — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Blume Ventures"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:06:20.813Z"
-  },
-  {
-    "id": "c103",
-    "name": "FinTrack",
-    "website": "",
-    "sector": "Fintech",
-    "subSector": "Fintech",
-    "stage": "Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "FinTrack provides fintech solutions for tracking personal finances and budgeting.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Amit Joshi",
-        "role": "Founder"
-      },
-      {
-        "name": "Riya Mehta",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://techcrunch.com/2025/12/27/india-startup-funding-hits-11b-in-2025-as-investors-grow-more-selective/",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $5M (Seed) from Tiger Global, Nexus Venture Partners — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Fintech raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Tiger Global",
-      "Nexus Venture Partners"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:06:20.813Z"
-  },
-  {
-    "id": "c104",
-    "name": "SmartEdu",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Edtech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "SmartEdu is an online platform that enhances learning through gamified education.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Prakash Mehta",
-        "role": "Founder"
-      },
-      {
-        "name": "Anjali Singh",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://techcrunch.com/2025/12/27/india-startup-funding-hits-11b-in-2025-as-investors-grow-more-selective/",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹2 crore (Angel) from GSV Ventures, Accel — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "GSV Ventures",
-      "Accel"
-    ],
     "status": "New Signal",
     "createdAt": "2026-07-09T05:06:20.813Z"
   },
@@ -1976,7 +1604,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/snippets/personal-finance-startup-finanjo-raises-rs-15-cr-pre-seed-funding-led-by-ajvc-11152846",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 79,
     "whyNow": "Just raised Rs 1.5 crore (Pre-Seed) from AJVC — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Fintech raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -1999,8 +1627,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-29-july-04-12132613",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised Funding raised from Teamology (Angel) from Teamology — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -2028,373 +1656,13 @@ const SEED_COMPANIES = [
     ],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/buzz/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 76,
     "whyNow": "Just raised ₹170 Cr (Seed) — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
     "status": "New Signal",
     "createdAt": "2026-07-09T05:31:03.084Z"
-  },
-  {
-    "id": "c108",
-    "name": "Mowito",
-    "website": "",
-    "sector": "AI",
-    "subSector": "AI",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Mowito will use the funds to expand into the US and scale industrial robotics deployments.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Puru Rastogi",
-        "role": "Founder"
-      },
-      {
-        "name": "Adityanag Nagesh",
-        "role": "Founder"
-      },
-      {
-        "name": "Safar V",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://x.com/TheCEO_Magazine",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $3M (Pre-Seed) from Version One Ventures — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Version One Ventures"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:31:03.084Z"
-  },
-  {
-    "id": "c109",
-    "name": "Baanhem Ventures",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Unknown",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Baanhem Ventures raised funds to support its operations.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Not mentioned",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/tags/funding-news",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹3.3 Cr (Angel) from Mudhal Partners — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Mudhal Partners"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:37:12.966Z"
-  },
-  {
-    "id": "c110",
-    "name": "Lido Learning",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Edtech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Lido Learning raised capital to enhance its educational offerings.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Not mentioned",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/tags/funding-news",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹30 Cr (Angel) from Juneja Family, VSS Investco — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Juneja Family",
-      "VSS Investco"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:37:12.966Z"
-  },
-  {
-    "id": "c111",
-    "name": "Terraview",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Tech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Terraview secures investment to further develop its technology solutions.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Not mentioned",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/tags/funding-news",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹5.8 Cr (Angel) from Binny Bansal, Kalyan Krishnamurthy, Sujeet Kumar — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Binny Bansal",
-      "Kalyan Krishnamurthy",
-      "Sujeet Kumar"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:37:12.966Z"
-  },
-  {
-    "id": "c112",
-    "name": "Tech Innovators",
-    "website": "",
-    "sector": "AI",
-    "subSector": "AI",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "AI-driven solutions for small businesses.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "John Doe",
-        "role": "Founder"
-      },
-      {
-        "name": "Jane Smith",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/monthly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $1M (Angel) from VentureX, Angel Investors Network — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "VentureX",
-      "Angel Investors Network"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:37:12.966Z"
-  },
-  {
-    "id": "c113",
-    "name": "Green Tech Solutions",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Clean Tech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Innovative renewable energy solutions.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Alice Johnson",
-        "role": "Founder"
-      },
-      {
-        "name": "Bob Lee",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/monthly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹3 crore (Pre-Seed) from EcoFund, Green Angels — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "EcoFund",
-      "Green Angels"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:37:12.966Z"
-  },
-  {
-    "id": "c114",
-    "name": "Fintech Buddy",
-    "website": "",
-    "sector": "Fintech",
-    "subSector": "Fintech",
-    "stage": "Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "A platform offering budget management tools.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Maya Patel",
-        "role": "Founder"
-      },
-      {
-        "name": "Rajan Gupta",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/monthly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $500K (Seed) from FinTech Ventures, Angel Partners — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Fintech raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "FinTech Ventures",
-      "Angel Partners"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:37:12.966Z"
-  },
-  {
-    "id": "c115",
-    "name": "Health Connect App",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Healthtech",
-    "stage": "Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Connecting patients with healthcare providers easily.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Nisha Verma",
-        "role": "Founder"
-      },
-      {
-        "name": "Arun Rai",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/monthly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹2 crore (Seed) from Health Angels, Wellness Ventures — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Health Angels",
-      "Wellness Ventures"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:37:12.966Z"
-  },
-  {
-    "id": "c116",
-    "name": "XYZ Tech",
-    "website": "",
-    "sector": "Fintech",
-    "subSector": "Fintech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "XYZ Tech provides innovative financial solutions for small businesses.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Alice Smith",
-        "role": "Founder"
-      },
-      {
-        "name": "Bob Johnson",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/weekly-funding-report-weekly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $1.5M (ANGEL) from Investor A, Investor B — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Fintech raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Investor A",
-      "Investor B"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:37:12.966Z"
-  },
-  {
-    "id": "c117",
-    "name": "ABC Health",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Healthtech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "ABC Health focuses on digital healthcare services.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "John Doe",
-        "role": "Founder"
-      },
-      {
-        "name": "Emma Brown",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/weekly-funding-report-weekly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹5 crore (PRE-SEED) from Investor C — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Investor C"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:37:12.966Z"
-  },
-  {
-    "id": "c118",
-    "name": "123 SaaS",
-    "website": "",
-    "sector": "B2B",
-    "subSector": "SaaS",
-    "stage": "Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "123 SaaS offers cloud-based solutions for enterprises.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Charlie Green",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/weekly-funding-report-weekly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $2M (SEED) from Investor D, Investor E — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage B2B raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Investor D",
-      "Investor E"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:37:12.966Z"
   },
   {
     "id": "c119",
@@ -2411,7 +1679,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-yubi-to-agrostar-indian-startups-raised-171-mn-funding-this-week/",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 78,
     "whyNow": "Just raised $5 Mn (Seed) from Elevation Capital, Peak XV Partners, Y Combinator — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -2437,7 +1705,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-yubi-to-agrostar-indian-startups-raised-171-mn-funding-this-week/",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 78,
     "whyNow": "Just raised $3.8 Mn (Seed) from Kindred Ventures, Better Tomorrow Ventures, Karman Ventures, Pythia Ventures and Coughdrop Capital. — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -2462,8 +1730,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-yubi-to-agrostar-indian-startups-raised-171-mn-funding-this-week/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Low",
+    "thesisScore": 71,
     "whyNow": "Just raised $3.5 Mn (Seed) from Shastra VC, BEENEXT, Ashish Gupta (Helion Advisors), PVS Raju (AIG Hospitals) — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -2478,7 +1746,7 @@ const SEED_COMPANIES = [
     "id": "c122",
     "name": "Tribe Stays",
     "website": "",
-    "sector": "Consumer",
+    "sector": "B2B",
     "subSector": "Real Estate Tech",
     "stage": "Seed",
     "geography": "India",
@@ -2489,7 +1757,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-yubi-to-agrostar-indian-startups-raised-171-mn-funding-this-week/",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 76,
     "whyNow": "Just raised $2.8 Mn (Seed) from Artha Venture Fund, Riverwalk Holdings, Kunal Khanna (Vivaldis) — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -2504,7 +1772,7 @@ const SEED_COMPANIES = [
     "id": "c123",
     "name": "CtrlB",
     "website": "",
-    "sector": "Consumer",
+    "sector": "B2B",
     "subSector": "Enterprise Tech",
     "stage": "Seed",
     "geography": "India",
@@ -2515,7 +1783,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-yubi-to-agrostar-indian-startups-raised-171-mn-funding-this-week/",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 76,
     "whyNow": "Just raised $2.5 Mn (Seed) from Chiratae Ventures, Equirus, InnovateX Fund, Campus Fund, Point One Capital — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -2540,8 +1808,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-yubi-to-agrostar-indian-startups-raised-171-mn-funding-this-week/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Low",
+    "thesisScore": 71,
     "whyNow": "Just raised $2 Mn (Seed) from Bluehill Capital — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -2565,7 +1833,7 @@ const SEED_COMPANIES = [
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-yubi-to-agrostar-indian-startups-raised-171-mn-funding-this-week/",
     "urgency": "High",
-    "thesisScore": 60,
+    "thesisScore": 78,
     "whyNow": "Just raised $1.2 Mn (Pre-Seed) from Kalaari Capital, Wyser Capital, Tenity — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -2590,8 +1858,8 @@ const SEED_COMPANIES = [
     "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
     "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-yubi-to-agrostar-indian-startups-raised-171-mn-funding-this-week/",
-    "urgency": "High",
-    "thesisScore": 60,
+    "urgency": "Medium",
+    "thesisScore": 71,
     "whyNow": "Just raised $383K (Pre-Seed) from Titan Capital, Raveen Sastry (Myntra) — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
@@ -2602,355 +1870,382 @@ const SEED_COMPANIES = [
     "createdAt": "2026-07-09T05:37:12.966Z"
   },
   {
-    "id": "c127",
-    "name": "Alchemic",
-    "website": "",
-    "sector": "AI",
-    "subSector": "AI",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Alchemic works on enhancing its AI platform and driving enterprise adoption.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Sreenadh Narayanan",
-        "role": "Founder"
-      },
-      {
-        "name": "Maurice Dhara",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://x.com/TheCEO_Magazine",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹2.5 crore (Pre-Seed) from @ajuniorvc — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "@ajuniorvc"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T05:37:12.966Z"
-  },
-  {
-    "id": "c128",
-    "name": "Neysa",
+    "id": "c143",
+    "name": "Mythik",
     "website": "",
     "sector": "Consumer",
     "subSector": "Tech",
     "stage": "Seed",
     "geography": "India",
     "hq": "India",
-    "description": "Neysa secured the largest funding round in February 2026.",
+    "description": "Mythik delivers cutting-edge technological services.",
     "founderPedigree": [],
     "founders": [
       {
-        "name": "Unknown",
+        "name": "Not Mentioned",
         "role": "Founder"
       }
     ],
     "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/monthly-funding-report",
+    "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
+    "urgency": "Medium",
+    "thesisScore": 71,
+    "whyNow": "Just raised $92 Mn (Seed) from Notable Investors Not Mentioned — capital just landed, founder is hiring and open to conversations now.",
+    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
+    "backedBy": [
+      "Notable Investors Not Mentioned"
+    ],
+    "status": "New Signal",
+    "createdAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "c144",
+    "name": "HrdWyr",
+    "website": "",
+    "sector": "Consumer",
+    "subSector": "Tech",
+    "stage": "Seed",
+    "geography": "India",
+    "hq": "India",
+    "description": "HrdWyr specializes in human resource technology solutions.",
+    "founderPedigree": [],
+    "founders": [
+      {
+        "name": "Not Mentioned",
+        "role": "Founder"
+      }
+    ],
+    "signalType": "Angel / Pre-Seed Raise",
+    "signalSource": "Firecrawl crawl — https://inc42.com/tag/funding-galore/",
+    "urgency": "Medium",
+    "thesisScore": 71,
+    "whyNow": "Just raised $303 Mn (Seed) from Notable Investors Not Mentioned — capital just landed, founder is hiring and open to conversations now.",
+    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
+    "backedBy": [
+      "Notable Investors Not Mentioned"
+    ],
+    "status": "New Signal",
+    "createdAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "c150",
+    "name": "Aurm",
+    "website": "",
+    "sector": "Fintech",
+    "subSector": "Bank Locker Infrastructure",
+    "stage": "Seed",
+    "geography": "India",
+    "hq": "India",
+    "description": "Develops bank locker solutions for enhanced security.",
+    "founderPedigree": [],
+    "founders": [],
+    "signalType": "Angel / Pre-Seed Raise",
+    "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-04-may-09-11815849",
     "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $2 Bn (Seed) — capital just landed, founder is hiring and open to conversations now.",
+    "thesisScore": 79,
+    "whyNow": "Just raised Rs 42 crore (Seed) from Earth Fund, Sattva Ventures, several angel investors — capital just landed, founder is hiring and open to conversations now.",
+    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
+    "backedBy": [
+      "Earth Fund",
+      "Sattva Ventures",
+      "several angel investors"
+    ],
+    "status": "New Signal",
+    "createdAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "c151",
+    "name": "HealthFab",
+    "website": "",
+    "sector": "Consumer",
+    "subSector": "Menstrual Hygiene",
+    "stage": "Pre-Seed",
+    "geography": "India",
+    "hq": "India",
+    "description": "Provides sustainable menstrual hygiene products.",
+    "founderPedigree": [],
+    "founders": [],
+    "signalType": "Angel / Pre-Seed Raise",
+    "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-04-may-09-11815849",
+    "urgency": "Medium",
+    "thesisScore": 69,
+    "whyNow": "Recently closed a Angel round — early window to reach the founder before the round is fully deployed.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [],
     "status": "New Signal",
-    "createdAt": "2026-07-09T06:11:38.805Z"
+    "createdAt": "2026-07-09T09:51:31.312Z"
   },
   {
-    "id": "c129",
-    "name": "XYZ Health",
+    "id": "c152",
+    "name": "Jurisphere",
     "website": "",
-    "sector": "Consumer",
-    "subSector": "Healthtech",
+    "sector": "AI",
+    "subSector": "Legal AI",
     "stage": "Pre-Seed",
     "geography": "India",
     "hq": "India",
-    "description": "XYZ Health provides innovative healthcare solutions.",
+    "description": "Offers AI-based solutions for legal research.",
     "founderPedigree": [],
-    "founders": [
-      {
-        "name": "John Doe",
-        "role": "Founder"
-      },
-      {
-        "name": "Jane Doe",
-        "role": "Founder"
-      }
-    ],
+    "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/monthly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹20 crore (Angel) from ABC Ventures, Health Angels — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "ABC Ventures",
-      "Health Angels"
-    ],
+    "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-04-may-09-11815849",
+    "urgency": "Medium",
+    "thesisScore": 76,
+    "whyNow": "Recently closed a Angel round — early window to reach the founder before the round is fully deployed.",
+    "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
+    "backedBy": [],
     "status": "New Signal",
-    "createdAt": "2026-07-09T06:11:38.805Z"
+    "createdAt": "2026-07-09T09:51:31.312Z"
   },
   {
-    "id": "c130",
-    "name": "EduTech Innovators",
+    "id": "c153",
+    "name": "Kisah",
     "website": "",
     "sector": "Consumer",
-    "subSector": "Edtech",
+    "subSector": "Fashion",
     "stage": "Pre-Seed",
     "geography": "India",
     "hq": "India",
-    "description": "EduTech Innovators focuses on enhancing online learning experiences.",
+    "description": "Sells ethnic wear for men and kids.",
     "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Mark Smith",
-        "role": "Founder"
-      },
-      {
-        "name": "Emily White",
-        "role": "Founder"
-      }
-    ],
+    "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/monthly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $1.5M (Pre-Seed) from EduCapital — capital just landed, founder is hiring and open to conversations now.",
+    "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-04-may-09-11815849",
+    "urgency": "Medium",
+    "thesisScore": 69,
+    "whyNow": "Recently closed a Angel round — early window to reach the founder before the round is fully deployed.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "EduCapital"
-    ],
+    "backedBy": [],
     "status": "New Signal",
-    "createdAt": "2026-07-09T06:11:38.805Z"
+    "createdAt": "2026-07-09T09:51:31.312Z"
   },
   {
-    "id": "c131",
-    "name": "Green Farms",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Agritech",
-    "stage": "Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Green Farms develops sustainable farming technologies.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Ravi Kumar",
-        "role": "Founder"
-      },
-      {
-        "name": "Anjali Singh",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/monthly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹15 crore (Seed) from Sustainable Fund, Green Ventures — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Sustainable Fund",
-      "Green Ventures"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T06:11:38.805Z"
-  },
-  {
-    "id": "c132",
-    "name": "Startups Inc.",
+    "id": "c155",
+    "name": "Antier Solutions",
     "website": "",
     "sector": "Fintech",
-    "subSector": "Fintech",
+    "subSector": "Blockchain",
     "stage": "Pre-Seed",
     "geography": "India",
     "hq": "India",
-    "description": "Startups Inc. provides innovative solutions for digital payments.",
+    "description": "Provides enterprise blockchain solutions.",
     "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Alice Smith",
-        "role": "Founder"
-      }
-    ],
+    "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/weekly-funding-report-weekly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $1.5M (Angel) from Investor A, Investor B — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Fintech raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Investor A",
-      "Investor B"
-    ],
+    "signalSource": "Firecrawl crawl — https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-04-may-09-11815849",
+    "urgency": "Medium",
+    "thesisScore": 77,
+    "whyNow": "Recently closed a Angel round — early window to reach the founder before the round is fully deployed.",
+    "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
+    "backedBy": [],
     "status": "New Signal",
-    "createdAt": "2026-07-09T06:11:38.805Z"
+    "createdAt": "2026-07-09T09:51:31.312Z"
   },
   {
-    "id": "c133",
-    "name": "Tech Innovations",
+    "id": "c156",
+    "name": "Elixiir Foods",
     "website": "",
     "sector": "Consumer",
-    "subSector": "Healthtech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "Tech Innovations focuses on AI-driven health monitoring systems.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Bob Johnson",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/weekly-funding-report-weekly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹3 crore (Pre-Seed) from Investor C, Investor D — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Investor C",
-      "Investor D"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T06:11:38.805Z"
-  },
-  {
-    "id": "c134",
-    "name": "Green Solutions",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Agritech",
+    "subSector": "Ecommerce",
     "stage": "Seed",
     "geography": "India",
     "hq": "India",
-    "description": "Green Solutions develops sustainable farming technologies.",
+    "description": "An ecommerce platform focusing on D2C food products.",
     "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Charlie Brown",
-        "role": "Founder"
-      },
-      {
-        "name": "Dana White",
-        "role": "Founder"
-      }
-    ],
+    "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://entrackr.com/weekly-funding-report-weekly-funding-report",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $500K (Seed) from Investor E — capital just landed, founder is hiring and open to conversations now.",
+    "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-idfy-to-olyv-indian-startups-raised-200-mn-this-week/",
+    "urgency": "Medium",
+    "thesisScore": 71,
+    "whyNow": "Just raised $9 Mn (Seed) from 3one4 Capital, Incubate Fund Asia — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
-      "Investor E"
+      "3one4 Capital",
+      "Incubate Fund Asia"
     ],
     "status": "New Signal",
-    "createdAt": "2026-07-09T06:11:38.805Z"
+    "createdAt": "2026-07-09T09:51:31.312Z"
   },
   {
-    "id": "c135",
-    "name": "XYZ Innovations",
+    "id": "c157",
+    "name": "e-TRNL Energy",
     "website": "",
     "sector": "Consumer",
-    "subSector": "Healthtech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "XYZ Innovations is developing a health monitoring platform for remote patient care.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Amit Sharma",
-        "role": "Founder"
-      },
-      {
-        "name": "Priya Gupta",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://www.vccircle.com/category/startup",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $2.5M (Angel) from Sequoia Capital, Accel Partners — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Sequoia Capital",
-      "Accel Partners"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T06:11:38.805Z"
-  },
-  {
-    "id": "c136",
-    "name": "TechGenix",
-    "website": "",
-    "sector": "Fintech",
-    "subSector": "Fintech",
-    "stage": "Pre-Seed",
-    "geography": "India",
-    "hq": "India",
-    "description": "TechGenix aims to simplify digital payments for small businesses.",
-    "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Rahul Mehta",
-        "role": "Founder"
-      }
-    ],
-    "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://www.vccircle.com/category/startup",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised ₹5 crore (Pre-Seed) from Blume Ventures — capital just landed, founder is hiring and open to conversations now.",
-    "whySparrow": "Early-stage Fintech raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
-    "backedBy": [
-      "Blume Ventures"
-    ],
-    "status": "New Signal",
-    "createdAt": "2026-07-09T06:11:38.805Z"
-  },
-  {
-    "id": "c137",
-    "name": "SustainEco",
-    "website": "",
-    "sector": "Consumer",
-    "subSector": "Consumer",
+    "subSector": "Clean Tech",
     "stage": "Seed",
     "geography": "India",
     "hq": "India",
-    "description": "SustainEco provides eco-friendly products for everyday use.",
+    "description": "A clean tech startup specializing in electric vehicles.",
     "founderPedigree": [],
-    "founders": [
-      {
-        "name": "Anjali Joshi",
-        "role": "Founder"
-      },
-      {
-        "name": "Vikram Singh",
-        "role": "Founder"
-      }
-    ],
+    "founders": [],
     "signalType": "Angel / Pre-Seed Raise",
-    "signalSource": "Firecrawl crawl — https://www.vccircle.com/category/startup",
-    "urgency": "High",
-    "thesisScore": 60,
-    "whyNow": "Just raised $1.2M (Seed) from 500 Startups, Nexus Venture Partners — capital just landed, founder is hiring and open to conversations now.",
+    "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-idfy-to-olyv-indian-startups-raised-200-mn-this-week/",
+    "urgency": "Low",
+    "thesisScore": 71,
+    "whyNow": "Just raised $3 Mn (Seed) from IAN Group, Navam Capital, Speciale Invest — capital just landed, founder is hiring and open to conversations now.",
     "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
     "backedBy": [
-      "500 Startups",
-      "Nexus Venture Partners"
+      "IAN Group",
+      "Navam Capital",
+      "Speciale Invest"
     ],
     "status": "New Signal",
-    "createdAt": "2026-07-09T06:11:38.805Z"
+    "createdAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "c158",
+    "name": "ThirdAI",
+    "website": "",
+    "sector": "AI",
+    "subSector": "AI",
+    "stage": "Seed",
+    "geography": "India",
+    "hq": "India",
+    "description": "An AI company focused on application layer solutions.",
+    "founderPedigree": [],
+    "founders": [],
+    "signalType": "Angel / Pre-Seed Raise",
+    "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-idfy-to-olyv-indian-startups-raised-200-mn-this-week/",
+    "urgency": "High",
+    "thesisScore": 78,
+    "whyNow": "Just raised $3 Mn (Seed) from Endiya Partners, Capria Ventures — capital just landed, founder is hiring and open to conversations now.",
+    "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
+    "backedBy": [
+      "Endiya Partners",
+      "Capria Ventures"
+    ],
+    "status": "New Signal",
+    "createdAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "c159",
+    "name": "DUSQ",
+    "website": "",
+    "sector": "Consumer",
+    "subSector": "Health Tech",
+    "stage": "Seed",
+    "geography": "India",
+    "hq": "India",
+    "description": "A health tech startup developing healthcare devices.",
+    "founderPedigree": [],
+    "founders": [],
+    "signalType": "Angel / Pre-Seed Raise",
+    "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-idfy-to-olyv-indian-startups-raised-200-mn-this-week/",
+    "urgency": "Medium",
+    "thesisScore": 71,
+    "whyNow": "Just raised $2.6 Mn (Seed) from Fireside Ventures, Antler India, Climber Capital, Startup Sherpas, Vaishav Investments, Avnish Anand, Shivam Puri — capital just landed, founder is hiring and open to conversations now.",
+    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
+    "backedBy": [
+      "Fireside Ventures",
+      "Antler India",
+      "Climber Capital"
+    ],
+    "status": "New Signal",
+    "createdAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "c160",
+    "name": "SimpleAI",
+    "website": "",
+    "sector": "AI",
+    "subSector": "AI",
+    "stage": "Seed",
+    "geography": "India",
+    "hq": "India",
+    "description": "An AI startup focusing on application layer services.",
+    "founderPedigree": [],
+    "founders": [],
+    "signalType": "Angel / Pre-Seed Raise",
+    "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-idfy-to-olyv-indian-startups-raised-200-mn-this-week/",
+    "urgency": "High",
+    "thesisScore": 78,
+    "whyNow": "Just raised $2.5 Mn (Seed) from JBV Capital, Hovancik Fund, 1947 Rise, PointOne Capital — capital just landed, founder is hiring and open to conversations now.",
+    "whySparrow": "Early-stage AI raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
+    "backedBy": [
+      "JBV Capital",
+      "Hovancik Fund",
+      "1947 Rise"
+    ],
+    "status": "New Signal",
+    "createdAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "c161",
+    "name": "Elevate Now",
+    "website": "",
+    "sector": "Consumer",
+    "subSector": "Health Tech",
+    "stage": "Seed",
+    "geography": "India",
+    "hq": "India",
+    "description": "A health tech company providing fitness and wellness solutions.",
+    "founderPedigree": [],
+    "founders": [],
+    "signalType": "Angel / Pre-Seed Raise",
+    "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-idfy-to-olyv-indian-startups-raised-200-mn-this-week/",
+    "urgency": "Medium",
+    "thesisScore": 71,
+    "whyNow": "Just raised $2 Mn (Seed) from Physis Capital, Inflection Point Ventures, Titan Capital — capital just landed, founder is hiring and open to conversations now.",
+    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
+    "backedBy": [
+      "Physis Capital",
+      "Inflection Point Ventures",
+      "Titan Capital"
+    ],
+    "status": "New Signal",
+    "createdAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "c162",
+    "name": "UKHI",
+    "website": "",
+    "sector": "Consumer",
+    "subSector": "Clean Tech",
+    "stage": "Seed",
+    "geography": "India",
+    "hq": "India",
+    "description": "A clean tech startup focused on climate technology.",
+    "founderPedigree": [],
+    "founders": [],
+    "signalType": "Angel / Pre-Seed Raise",
+    "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-idfy-to-olyv-indian-startups-raised-200-mn-this-week/",
+    "urgency": "Low",
+    "thesisScore": 71,
+    "whyNow": "Just raised $1.2 Mn (Seed) from Venture Catalysts, 100Unicorns, 888 VC, DCG Pack — capital just landed, founder is hiring and open to conversations now.",
+    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
+    "backedBy": [
+      "Venture Catalysts",
+      "100Unicorns",
+      "888 VC"
+    ],
+    "status": "New Signal",
+    "createdAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "c163",
+    "name": "Preventify",
+    "website": "",
+    "sector": "Consumer",
+    "subSector": "Health Tech",
+    "stage": "Pre-Seed",
+    "geography": "India",
+    "hq": "India",
+    "description": "A health tech startup focusing on in-clinic healthcare.",
+    "founderPedigree": [],
+    "founders": [],
+    "signalType": "Angel / Pre-Seed Raise",
+    "signalSource": "Firecrawl crawl — https://inc42.com/buzz/from-idfy-to-olyv-indian-startups-raised-200-mn-this-week/",
+    "urgency": "Medium",
+    "thesisScore": 71,
+    "whyNow": "Just raised $200K (Pre-Seed) from PedalStart, Viren Shetty, Jatin Kakrani — capital just landed, founder is hiring and open to conversations now.",
+    "whySparrow": "Early-stage Consumer raise in India, surfaced by the live Firecrawl crawl. Fits the pre-seed / seed sourcing window.",
+    "backedBy": [
+      "PedalStart",
+      "Viren Shetty",
+      "Jatin Kakrani"
+    ],
+    "status": "New Signal",
+    "createdAt": "2026-07-09T09:51:31.312Z"
   }
 ];
 
@@ -5882,20 +5177,22 @@ const SEED_DEPARTURES = [
     "source": "https://timesofindia.indiatimes.com/business/india-business/swiggy-cofounder-nandan-reddy-steps-down-may-start-up-again/articleshow/130176951.cms",
     "status": "New Signal",
     "foundAt": "2026-07-09T04:52:32.637Z",
-    "watchlisted": true
+    "watchlisted": true,
+    "moveType": "starting_own"
   },
   {
     "id": "d002",
     "founder": "Girish Mathrubootham",
     "exEmployer": "Freshworks",
     "exDesignation": "Executive Chairman",
-    "currentBuilding": "Together Fund",
+    "currentBuilding": "",
     "sector": "Venture Capital",
     "linkedin": "",
     "source": "https://timesofindia.indiatimes.com/city/chennai/girish-mathrubootham-steps-down-as-executive-chairman-of-freshworks-to-focus-on-his-vc-firm-together-fund/articleshow/123716086.cms",
     "status": "New Signal",
     "foundAt": "2026-07-09T04:52:32.637Z",
-    "watchlisted": true
+    "watchlisted": true,
+    "moveType": "stepped_down"
   },
   {
     "id": "d003",
@@ -5912,19 +5209,6 @@ const SEED_DEPARTURES = [
     "watchlisted": true
   },
   {
-    "id": "d004",
-    "founder": "Kunal Shah",
-    "exEmployer": "CRED",
-    "exDesignation": "CEO",
-    "currentBuilding": "stealth fintech",
-    "sector": "Fintech",
-    "linkedin": "",
-    "source": "https://techcrunch.com/2026/06/22/whatsapp-gets-new-chief-as-meta-taps-indias-cred-founder-kunal-shah-and-invests-900m-in-startup/",
-    "status": "New Signal",
-    "foundAt": "2026-07-09T05:37:12.966Z",
-    "watchlisted": true
-  },
-  {
     "id": "d005",
     "founder": "Ujjwal Jain",
     "exEmployer": "PhonePe",
@@ -5935,7 +5219,8 @@ const SEED_DEPARTURES = [
     "source": "https://www.moneycontrol.com/technology/phonepe-elevates-srijon-biswas-as-cto-co-founder-rahul-chari-is-cpto-article-13968865.html",
     "status": "New Signal",
     "foundAt": "2026-07-09T05:37:12.966Z",
-    "watchlisted": true
+    "watchlisted": true,
+    "moveType": "starting_own"
   },
   {
     "id": "d006",
@@ -6356,6 +5641,118 @@ const SEED_DEPARTURES = [
     "source": "https://www.moneycontrol.com/news/business/startup/zepto-s-meat-business-ceo-chandan-rungta-quits-latest-in-a-string-of-exits-13653419.html",
     "status": "New Signal",
     "foundAt": "2026-07-09T06:11:38.805Z"
+  },
+  {
+    "id": "d036",
+    "founder": "Ashish Kumar Singh",
+    "exEmployer": "Meesho",
+    "exDesignation": "Chief Human Resources Officer (CHRO)",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://www.moneycontrol.com/news/business/startup/meesho-chro-ashish-kumar-singh-resigns-after-nearly-six-year-stint-13958797.html",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d037",
+    "founder": "Megha Agarwal",
+    "exEmployer": "Meesho",
+    "exDesignation": "Chief Experience Officer (Business)",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://timesofindia.indiatimes.com/etimes/trending/who-is-megha-agarwal-meeshos-top-executive-who-resigned-with-a-rs-2-29-crore-package/articleshow/126429600.cms",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d038",
+    "founder": "Madhur Deora",
+    "exEmployer": "Paytm",
+    "exDesignation": "President and Group CFO",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://yourstory.com/2025/07/paytm-overhauls-board-amid-profitability-madhur-deora-resign",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d039",
+    "founder": "Bhavish Aggarwal",
+    "exEmployer": "Ola",
+    "exDesignation": "Co-founder and CEO",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://startuptalky.com/startup-story-ola/",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d040",
+    "founder": "Swayam Saurabh",
+    "exEmployer": "Ola",
+    "exDesignation": "Chief Financial Officer (CFO)",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://startuptalky.com/startup-story-ola/",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d041",
+    "founder": "Gaurav Porwal",
+    "exEmployer": "Ola",
+    "exDesignation": "Chief Operating Officer (COO)",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://startuptalky.com/startup-story-ola/",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d042",
+    "founder": "Arun Sirdeshmukh",
+    "exEmployer": "Ola",
+    "exDesignation": "CEO of Ola Cars",
+    "moveType": "stepped_down",
+    "currentBuilding": "",
+    "sector": "Unspecified",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://startuptalky.com/startup-story-ola/",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
+  },
+  {
+    "id": "d043",
+    "founder": "Amit Sharma",
+    "exEmployer": "Dream Sports",
+    "exDesignation": "CTO",
+    "moveType": "starting_own",
+    "currentBuilding": "stealth AI venture",
+    "sector": "AI",
+    "linkedin": "",
+    "watchlisted": true,
+    "source": "https://inc42.com/buzz/dream-sports-cto-amit-sharma-quits-to-start-own-ai-venture/",
+    "status": "New Signal",
+    "foundAt": "2026-07-09T09:51:31.312Z"
   }
 ];
 
@@ -7560,7 +6957,7 @@ const SEED_MEMOS = [
 ];
 
 const LAST_SCAN = {
-  "timestamp": "2026-07-09T06:17:10.443Z",
+  "timestamp": "2026-07-09T09:51:31.312Z",
   "window": "last ~12 months (qdr:y)",
   "queriesRun": [
     {
@@ -7698,7 +7095,7 @@ const LAST_SCAN = {
     "inc42/buzz",
     "x.com/TheCEO_Magazine"
   ],
-  "newCompanies": 0,
+  "newCompanies": 26,
   "keptRaises": [
     {
       "name": "Fermi.ai",
@@ -7879,7 +7276,7 @@ const LAST_SCAN = {
     "Instahyre + Naukri founding engineer search (not yet run)"
   ],
   "engine": "firecrawl",
-  "newDepartures": 0,
-  "departuresFound": 0,
-  "raisesFound": 0
+  "newDepartures": 8,
+  "departuresFound": 37,
+  "raisesFound": 42
 };

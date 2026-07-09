@@ -482,84 +482,44 @@ const Scanner = {
     if (el) el.textContent = this.describeLastScan().label;
   },
 
-  // true when this page was opened as a local file or from the local
-  // scan-server.js (http://localhost:8787) — as opposed to a hosted deploy
-  // (e.g. the Netlify site), where "run node scripts/scan-server.js and
-  // reload this URL" isn't actionable advice.
-  _isLocalContext() {
-    return location.protocol === 'file:' || /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
-  },
-
-  showNoServerModal(opts = {}) {
-    const feature = opts.feature || 'scan'; // 'scan' (full /scan-raises agent) | 'crawl' (Firecrawl)
+  showNoServerModal() {
     const { label, detail } = this.describeLastScan();
-    const local = this._isLocalContext();
-    const code = (s) => `<div style="background:var(--bg-elevated,rgba(255,255,255,0.04));border-radius:8px;padding:10px 12px;font-size:12px;font-family:'JetBrains Mono',monospace;margin-bottom:12px;">${s}</div>`;
-    const p = (s) => `<p style="color:var(--text-muted);font-size:13px;line-height:1.6;margin:12px 0;">${s}</p>`;
-
-    let title, body;
-    if (feature === 'crawl') {
-      if (local) {
-        title = "Local scan server isn't running";
-        body = p(`"Crawl Web" runs a fast Firecrawl-based sweep for founder departures &amp; angel/pre-seed
-          raises through a small local server — but it's not reachable right now. Start it from the
-          project folder with:`) + code('node scripts/scan-server.js') +
-          p(`Then open the URL it prints (default <code>http://localhost:8787</code>) instead of this
-          file directly, and click Crawl Web again.`);
-      } else {
-        title = "Crawl backend isn't configured on this deployment";
-        body = p(`"Crawl Web" runs through a Netlify Function that talks to Firecrawl and Supabase, but
-          it isn't reachable right now. If you just deployed this, make sure <code>FIRECRAWL_API_KEY</code>,
-          <code>SUPABASE_URL</code>, and <code>SUPABASE_SERVICE_ROLE_KEY</code> are set as Netlify
-          environment variables (Site settings → Environment variables) and redeploy.`);
-      }
-    } else {
-      if (local) {
-        title = "Local scan server isn't running";
-        body = p(`"Scan Now" triggers a real <code>/scan-raises</code> run in Claude Code (a wide sweep —
-          sector, source, investor-watchlist, accelerator, regional, and hiring-signal searches,
-          typically 5–10+ minutes, real usage against your account) through a small local server —
-          but it's not reachable right now. Start it from the project folder with:`) +
-          code('node scripts/scan-server.js') +
-          p(`Then open the URL it prints (default <code>http://localhost:8787</code>) instead of this
-          file directly, and click Scan Now again.`);
-      } else {
-        title = "Full scan only runs on your own machine";
-        body = p(`"Scan Now" drives a real <code>/scan-raises</code> agent run (5–10+ minutes) through your
-          logged-in Claude Code CLI — a hosted site can't do that on your behalf. Run it locally instead:`) +
-          code('node scripts/scan-server.js') +
-          p(`Then open <code>http://localhost:8787</code> on your own machine and click Scan Now there.
-          On this hosted dashboard, use <strong>Crawl Web</strong> instead — that fast crawl runs from here.`);
-      }
-    }
-
     Modal.open(`
-      <div class="modal-company-name">${title}</div>
-      ${body}
+      <div class="modal-company-name">Local scan server isn't running</div>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.6;margin:12px 0;">
+        "Scan Now" triggers a real <code>/scan-raises</code> run in Claude Code (a wide sweep —
+        sector, source, investor-watchlist, accelerator, regional, and hiring-signal searches,
+        typically 5–10+ minutes, real usage against your account) through a small local server —
+        but it's not reachable right now. Start it from the project folder with:
+      </p>
+      <div style="background:var(--bg-elevated,rgba(255,255,255,0.04));border-radius:8px;padding:10px 12px;font-size:12px;font-family:'JetBrains Mono',monospace;margin-bottom:12px;">
+        node scripts/scan-server.js
+      </div>
+      <p style="color:var(--text-muted);font-size:13px;line-height:1.6;margin:12px 0;">
+        Then open the URL it prints (default <code>http://localhost:8787</code>) instead of this
+        file directly, and click Scan Now again.
+      </p>
       <div style="background:var(--bg-elevated,rgba(255,255,255,0.04));border-radius:8px;padding:10px 12px;font-size:12px;color:var(--text-muted);">
         <strong>${label}</strong><br>${detail}
       </div>
     `);
   },
 
-  async pingEndpoint(path) {
+  async pingServer() {
     try {
-      const res = await fetch(path, { cache: 'no-store' });
+      const res = await fetch('/status', { cache: 'no-store' });
       return res.ok;
     } catch (e) {
       return false;
     }
   },
 
-  async pingServer() { return this.pingEndpoint('/status'); },
-  async pingFirecrawl() { return this.pingEndpoint('/firecrawl-status'); },
-
   // Firecrawl crawl — fast, key-based (no Claude account usage). Sweeps Indian
   // startup press for (1) founder-factory departures and (2) angel/pre-seed
   // raises, writes to the tracker, regenerates data.js, then reloads.
   async runFirecrawl() {
-    if (!(await this.pingFirecrawl())) {
-      this.showNoServerModal({ feature: 'crawl' });
+    if (!(await this.pingServer())) {
+      this.showNoServerModal();
       return;
     }
     const btn = document.getElementById('crawl-btn');
@@ -992,7 +952,7 @@ function renderDashboard() {
   const avgScore = active.length ? Math.round(active.reduce((a,c)=>a+c.thesisScore,0)/active.length) : 0;
   const depCount = (typeof SEED_DEPARTURES !== 'undefined' && Array.isArray(SEED_DEPARTURES)) ? SEED_DEPARTURES.length : 0;
   const buildingOwn = (typeof SEED_DEPARTURES !== 'undefined' && Array.isArray(SEED_DEPARTURES))
-    ? SEED_DEPARTURES.filter(d => (d.moveType || 'starting_own') === 'starting_own').length : 0;
+    ? SEED_DEPARTURES.filter(d => d.moveType === 'starting_own').length : 0;
 
   // Signal-to-Conviction funnel — the flow every signal travels. Counts come
   // straight from the live pipeline (the same data the CRM Pipeline view uses).

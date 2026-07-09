@@ -11,20 +11,14 @@
 // Then open the URL it prints (default http://localhost:8787).
 'use strict';
 
+require('./load-env');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const { spawn } = require('child_process');
-const { loadEnv } = require('./lib/env');
-const { client } = require('./lib/supabase');
-const { buildDataJs } = require('./lib/build-data-js');
 
 const ROOT = path.resolve(__dirname, '..');
-loadEnv(ROOT);
 const PORT = process.env.PORT || 8787;
-const sb = (process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY)
-  ? client(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY)
-  : null;
 // Wider search diameter (double-digit distinct queries across sector/source/
 // investor/accelerator/regional/hiring angles, per sourcing-context.md) costs
 // more per run than the original 2-3-query version — default budget raised
@@ -54,8 +48,9 @@ function runFirecrawl() {
   try {
     child = spawn('node', [path.join(ROOT, 'scripts', 'firecrawl-scan.js')], {
       cwd: ROOT,
-      // firecrawl-scan.js loads .env itself and reads FIRECRAWL_API_KEY from
-      // process.env, which it inherits here by default.
+      // FIRECRAWL_API_KEY is inherited from the environment (set it in .env or
+      // export it before starting the server). The child exits early if unset.
+      env: { ...process.env },
     });
   } catch (err) {
     crawlState.running = false;
@@ -87,43 +82,6 @@ function runFirecrawl() {
     logStream.write(`\nProcess error: ${err}\n`);
     logStream.end();
   });
-}
-
-// Builds data.js live from Supabase (the source of truth once configured —
-// see db/schema.sql) so every load reflects the current database, not a
-// pre-generated file. Falls back to the static data.js on disk if Supabase
-// isn't configured or the query fails, so the dashboard never breaks.
-async function serveDataJs(req, res) {
-  if (sb) {
-    try {
-      const [companiesRows, investorsRows, vcsRows, departuresRows, memosRows, metaRows] = await Promise.all([
-        sb.selectAll('companies'),
-        sb.selectAll('investors'),
-        sb.selectAll('vcs'),
-        sb.selectAll('departures'),
-        sb.selectAll('memos'),
-        sb.selectAll('meta', 'key'),
-      ]);
-      const lastScanRow = metaRows.find(r => r.key === 'last_scan');
-      const content = buildDataJs({
-        companies: companiesRows.map(r => r.data),
-        investors: investorsRows.map(r => r.data).filter(p => p.type === 'Angel'),
-        vcs: vcsRows.map(r => r.data),
-        departures: departuresRows.map(r => r.data),
-        memos: memosRows.map(r => r.data),
-        lastScan: lastScanRow ? lastScanRow.data : null,
-      });
-      res.writeHead(200, {
-        'Content-Type': 'application/javascript',
-        'Cache-Control': 'no-store, no-cache, must-revalidate',
-        'Pragma': 'no-cache',
-      });
-      return res.end(content);
-    } catch (err) {
-      console.error('Supabase data.js query failed, falling back to static file:', err.message);
-    }
-  }
-  return serveStatic(req, res);
 }
 
 function serveStatic(req, res) {
@@ -210,9 +168,6 @@ function runScan() {
 }
 
 const server = http.createServer((req, res) => {
-  if (req.method === 'GET' && req.url.split('?')[0] === '/data.js') {
-    return void serveDataJs(req, res);
-  }
   if (req.method === 'POST' && req.url === '/scan') {
     if (scanState.running) {
       res.writeHead(409, { 'Content-Type': 'application/json' });
@@ -245,5 +200,4 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, '127.0.0.1', () => {
   console.log(`Sparrow Sourcing OS — http://localhost:${PORT}`);
   console.log(`Scan endpoint: POST /scan (budget $${MAX_BUDGET_USD}/run, window ${SCAN_WINDOW_DAYS}d). Logs: data/scan_log.txt`);
-  console.log(sb ? 'Supabase: connected — data.js served live from the database.' : 'Supabase: not configured — serving static data.js from disk.');
 });
